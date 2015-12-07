@@ -19,7 +19,7 @@
 					if ($category_id>0){
 						 $response = "insert=success";
 						 $target_dir = '/opt/lampp/htdocs/PHP/2/categoryimages/';
-                   $target_file = $target_dir."$category_id"."_icon.jpg";
+                   $target_file = $target_dir."$categoryid"."_icon.jpg";
                    $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
                    $categoryiconname = basename($_FILES['upload_category_image']['name']);
                    $check = getimagesize($_FILES["upload_category_image"]["tmp_name"]);

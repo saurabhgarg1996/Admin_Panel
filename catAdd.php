@@ -29,20 +29,36 @@
 									echo "Record already exists";
 								} if($_REQUEST['in'] == 1){
 									echo "Record Inserted";
-								} 
-							}
+								} if($_REQUEST['in'] == 3){
+									echo "Size of image exceeded";
+								} if($_REQUEST['in'] == 4 ){
+									echo "Image is not in correct format";								
+								}
+								if($_REQUEST['in'] == 5){
+									echo "sjf";
+								} if($_REQUEST['in'] == 6){
+									echo "mhsd";
+								} if($_REQUEST['in'] == 7){
+									echo "Smjds";
+								} if($_REQUEST['in'] == 8 ){
+									echo "Imjefd";								
+								} if($_REQUEST['in'] == 9 ){
+									echo "Imhbfrj";								
+								}
+								
+							} 
 							?>
         <form name="submit" role="form" enctype="multipart/form-data" method="post" action="process/catAddProcess.php">
 				<div class="form-group">
                     <label class="control-label" for="selectError">Category Name</label>
                     <div class="controls">
-                        <input type="text" class="form-control" name="subcategoryname" style="width:45%"/>
+                        <input type="text" class="form-control" name="categoryname" style="width:45%"/>
                     </div>
                 </div>
 				<div class="form-group">
                     <label class="control-label" for="selectError" >Upload Icon</label>
                     <div class="controls">
-                        <input type="file" name="upload_subcategory_image" id="" />
+                        <input type="file" name="upload_category_image" id="" />
                     </div>
                 </div>
 				<div class="form-group">

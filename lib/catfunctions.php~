@@ -145,7 +145,7 @@
             return E00100;
         }
 	}
-	 function updateCat($categoryid)
+	 function update($categoryid)
     {
     	comment_message_log('Start of Function : '. __FUNCTION__);
 
