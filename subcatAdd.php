@@ -1,6 +1,7 @@
 <?php 
 include_once "process/logincheck1.php";
 
+
 $no_visible_elements = "";
 include('header.php'); 
 include_once "lib/sm-connection.php";

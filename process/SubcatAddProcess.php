@@ -3,6 +3,7 @@ include_once "logincheck1.php";
 
 $response= "";
 
+
 include_once "../lib/sm-connection.php";
 include_once "../lib/sm-constant.php";
 include_once "../lib/subcatfunctions.php";
