@@ -1,0 +1,84 @@
+<?php 
+include_once "process/logincheck1.php";
+
+include_once "lib/sm-connection.php";
+include_once "lib/sm-constant.php";
+include_once "lib/userfunction.php";
+
+require('header.php'); 
+?>
+   
+    <div class="row">
+    <div class="box col-md-12">
+    <div class="box-inner">
+    <div class="box-header well" data-original-title="">
+        <h2><i class="glyphicon glyphicon-user"></i> User Datatable </h2>
+
+        <div class="box-icon">
+            <a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+            <a href="#" class="btn btn-minimize btn-round btn-default"><i
+                    class="glyphicon glyphicon-chevron-up"></i></a>
+            <a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
+        </div>
+    </div>
+    <div class="box-content">
+    <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Joining Date</th>
+        <th>DOB</th>
+        <th>Gender</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+	<?php
+							$rv = aGetAllUsers();
+							if(count($rv) > 0){
+							if(is_array($rv)){
+								foreach ($rv as $rv1){
+									echo "<tr>
+											<td>".$rv1['full_name']."</td>
+											<td>".$rv1['email_id']."</td>
+											<td>".$rv1['created_at']."</td>
+											<td>".$rv1['dob']."</td>
+											<td>".$rv1['gender']."</td>
+											<td>";
+										
+										if($rv1['isActive'] == 1){
+											echo "<span class='label-success label label-default'>Active</span>";
+										} else if ($rv1['isActive'] == 0){
+											echo "<span class='label-warning label label-default'>Pending</span>";
+										} else if ($rv1['isActive'] == 2){
+											echo "<span class='label-warning label label-default'>Banned</span>";
+										}
+										
+									echo "</td>
+											<td class='center'>
+												<a class='btn btn-info' href='viewUser.php?edit=".md5($rv1['user_id'])."'>
+													<i class='icon-eye label-success'></i>
+														View More
+												</a>
+											</td>
+										  </tr>";
+									}
+								}
+							}
+						  ?>
+    
+ 
+    </tbody>
+    </table>
+    </div>
+    </div>
+    </div>
+    <!--/span-->
+
+    </div><!--/row-->
+
+    
+
+<?php require('footer.php'); ?>

@@ -1,0 +1,110 @@
+05-12-2015 12:41:46 ::: Start of Function : aGetAllTags
+05-12-2015 12:41:46 ::: Query Executed Successfully. ::: SELECT * FROM `interests` ORDER BY `id` DESC;
+05-12-2015 12:41:46 ::: End of Function : aGetAllTags
+05-12-2015 12:44:51 ::: Start of Function : aGetAllTags
+05-12-2015 12:44:51 ::: Query Executed Successfully. ::: SELECT * FROM `interests` ORDER BY `id` DESC;
+05-12-2015 12:44:51 ::: End of Function : aGetAllTags
+05-12-2015 12:45:03 ::: Start of Function : aGetAllTags
+05-12-2015 12:45:03 ::: Query Executed Successfully. ::: SELECT * FROM `interests` ORDER BY `id` DESC;
+05-12-2015 12:45:03 ::: End of Function : aGetAllTags
+05-12-2015 12:45:03 ::: Start of Function : iInsertTags
+05-12-2015 12:45:03 ::: Query Executed Successfully.::: id = $iId ::: INSERT INTO `interests` (`id`,`tag`,`showInApp`,`e1`, `e2` ) VALUES (NULL, 'Pestris', '1','', '');
+05-12-2015 12:45:03 ::: End of Function : iInsertTags
+05-12-2015 13:45:16 ::: Start of Function : aGetUserbyPass
+05-12-2015 13:45:17 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988';
+05-12-2015 13:45:17 ::: End of Function : aGetUserbyPass
+05-12-2015 13:45:33 ::: Start of Function : aGetUserbyPass
+05-12-2015 13:45:33 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+05-12-2015 13:45:33 ::: End of Function : aGetUserbyPass
+05-12-2015 14:21:25 ::: Start of Function : iInsertSubCats
+05-12-2015 14:21:26 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'27', 'sjdns', '0', '');
+05-12-2015 14:21:26 ::: End of Function : iInsertSubCats
+07-12-2015 06:47:59 ::: Start of Function : aGetUserbyPass
+07-12-2015 06:47:59 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit!';
+07-12-2015 06:47:59 ::: End of Function : aGetUserbyPass
+07-12-2015 06:48:20 ::: Start of Function : aGetUserbyPass
+07-12-2015 06:48:20 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoi1988!';
+07-12-2015 06:48:20 ::: End of Function : aGetUserbyPass
+07-12-2015 06:48:32 ::: Start of Function : aGetUserbyPass
+07-12-2015 06:48:32 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+07-12-2015 06:48:32 ::: End of Function : aGetUserbyPass
+07-12-2015 08:09:19 ::: Start of Function : aGetUserbyPass
+07-12-2015 08:09:19 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+07-12-2015 08:09:19 ::: End of Function : aGetUserbyPass
+07-12-2015 08:11:54 ::: Start of Function : aGetUserbyPass
+07-12-2015 08:11:54 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoti1988!';
+07-12-2015 08:11:54 ::: End of Function : aGetUserbyPass
+07-12-2015 08:12:07 ::: Start of Function : aGetUserbyPass
+07-12-2015 08:12:07 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+07-12-2015 08:12:07 ::: End of Function : aGetUserbyPass
+07-12-2015 08:18:12 ::: Start of Function : aGetUserbyPass
+07-12-2015 08:18:12 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+07-12-2015 08:18:12 ::: End of Function : aGetUserbyPass
+07-12-2015 08:38:13 ::: Start of Function : iInsertSubCats
+07-12-2015 08:38:13 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'27', 'sada', '0', '');
+07-12-2015 08:38:13 ::: End of Function : iInsertSubCats
+07-12-2015 08:43:51 ::: Start of Function : iInsertSubCats
+07-12-2015 08:43:51 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'sxs', '0', '');
+07-12-2015 08:43:51 ::: End of Function : iInsertSubCats
+07-12-2015 08:52:39 ::: Start of Function : iInsertSubCats
+07-12-2015 08:52:39 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'27', 'sdcx', '1', '');
+07-12-2015 08:52:39 ::: End of Function : iInsertSubCats
+07-12-2015 08:54:05 ::: Start of Function : iInsertSubCats
+07-12-2015 08:54:05 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'asxzs', '0', '');
+07-12-2015 08:54:05 ::: End of Function : iInsertSubCats
+07-12-2015 08:58:22 ::: Start of Function : iInsertSubCats
+07-12-2015 08:58:22 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'sdcsx', '0', '');
+07-12-2015 08:58:22 ::: End of Function : iInsertSubCats
+07-12-2015 09:20:15 ::: Start of Function : iInsertSubCats
+07-12-2015 09:20:15 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'sdcs', '0', '');
+07-12-2015 09:20:15 ::: End of Function : iInsertSubCats
+07-12-2015 09:27:20 ::: Start of Function : iInsertSubCats
+07-12-2015 09:27:20 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'sedcd', '1', '');
+07-12-2015 09:27:20 ::: End of Function : iInsertSubCats
+07-12-2015 09:27:43 ::: Start of Function : iInsertSubCats
+07-12-2015 09:27:43 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaa', '1', '');
+07-12-2015 09:27:43 ::: End of Function : iInsertSubCats
+07-12-2015 09:41:40 ::: Start of Function : iInsertSubCats
+07-12-2015 09:41:40 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaa', '1', '');
+07-12-2015 09:41:40 ::: End of Function : iInsertSubCats
+07-12-2015 10:02:34 ::: Start of Function : iInsertSubCats
+07-12-2015 10:02:34 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaa', '0', '');
+07-12-2015 10:02:34 ::: End of Function : iInsertSubCats
+07-12-2015 10:04:50 ::: Start of Function : iInsertSubCats
+07-12-2015 10:04:50 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaa', '1', '');
+07-12-2015 10:04:50 ::: End of Function : iInsertSubCats
+07-12-2015 10:10:42 ::: Start of Function : iInsertSubCats
+07-12-2015 10:10:42 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'27', 'aa', '1', '');
+07-12-2015 10:10:42 ::: End of Function : iInsertSubCats
+07-12-2015 10:15:32 ::: Start of Function : iInsertSubCats
+07-12-2015 10:15:32 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'a', '1', '');
+07-12-2015 10:15:32 ::: End of Function : iInsertSubCats
+07-12-2015 10:17:34 ::: Start of Function : iInsertSubCats
+07-12-2015 10:17:34 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaaa', '1', '');
+07-12-2015 10:17:34 ::: End of Function : iInsertSubCats
+07-12-2015 10:18:29 ::: Start of Function : iInsertSubCats
+07-12-2015 10:18:29 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'ss', '0', '');
+07-12-2015 10:18:29 ::: End of Function : iInsertSubCats
+07-12-2015 10:23:05 ::: Start of Function : iInsertSubCats
+07-12-2015 10:23:05 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaaaa', '1', '');
+07-12-2015 10:23:05 ::: End of Function : iInsertSubCats
+07-12-2015 10:25:59 ::: Start of Function : iInsertSubCats
+07-12-2015 10:25:59 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaaaaaaa', '1', '');
+07-12-2015 10:25:59 ::: End of Function : iInsertSubCats
+07-12-2015 10:26:37 ::: Start of Function : iInsertSubCats
+07-12-2015 10:26:38 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'sdss', '1', '');
+07-12-2015 10:26:38 ::: End of Function : iInsertSubCats
+07-12-2015 10:27:52 ::: Start of Function : iInsertSubCats
+07-12-2015 10:27:52 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaaa', '1', '');
+07-12-2015 10:27:52 ::: End of Function : iInsertSubCats
+07-12-2015 10:32:12 ::: Start of Function : iInsertSubCats
+07-12-2015 10:32:12 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaaaaaaaa', '1', '');
+07-12-2015 10:32:12 ::: End of Function : iInsertSubCats
+07-12-2015 10:33:55 ::: Start of Function : iInsertSubCats
+07-12-2015 10:33:55 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'sdsdsds', '1', '');
+07-12-2015 10:33:55 ::: End of Function : iInsertSubCats
+07-12-2015 10:36:39 ::: Start of Function : iInsertSubCats
+07-12-2015 10:36:39 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaaaa', '1', '');
+07-12-2015 10:36:39 ::: End of Function : iInsertSubCats
+07-12-2015 10:36:39 ::: Start of Function : update
+
