@@ -101,7 +101,7 @@
                             <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Categories</span></a>
                             <ul class="nav nav-pills nav-stacked">
                                 <li><a href="categories.php">View All</a></li>
-                                <li><a href="catAdd.php">Add New</a></li>
+                                <li><a href="#">Add New</a></li>
                             </ul>
                         </li>
 						<li class="accordion">

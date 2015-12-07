@@ -107,4 +107,7 @@
 07-12-2015 10:36:39 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaaaa', '1', '');
 07-12-2015 10:36:39 ::: End of Function : iInsertSubCats
 07-12-2015 10:36:39 ::: Start of Function : update
+07-12-2015 11:21:21 ::: Start of Function : aGetUserbyPass
+07-12-2015 11:21:21 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+07-12-2015 11:21:21 ::: End of Function : aGetUserbyPass
 
