@@ -75,8 +75,12 @@ include_once "lib/subcatfunctions.php";
 									echo "</td>
 									<td class='center'>
 												<a class='btn btn-info' href='tags.php?delete=".md5($rv1['category_id'])."' onclick='return confirm(\"Are you sure you want to delete the selected name? The action is not revesible\")'>
-													<i class='icon-view label-success'></i> 
+														<i class='icon-view label-success'></i> 
 														View
+												</a>
+												<a class='btn btn-info' href='remCategories.php?id=".md5($rv1['category_id'])."'>
+													<i class='icon-view label-success'></i> 
+														Edit
 												</a>
 											</td>
 										  </tr>";

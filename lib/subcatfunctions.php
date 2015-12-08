@@ -161,33 +161,33 @@
             return E00010;
        }
        //! Query_1
-       $sQuery1 ="update  sub_category_version set version_num = version_num + 1 , updated_at = Now() where serial_no = 1";
+      // $sQuery1 ="update  sub_category_version set version_num = version_num + 1 , updated_at = Now() where serial_no = 1";
                                         
 
        //! Executing the query_1
-       $rResultSet1= mysqli_query($rConnection, $sQuery1) or die(mysqli_error($rConnection));
+       //$rResultSet1= mysqli_query($rConnection, $sQuery1) or die(mysqli_error($rConnection));
       
       
-		 if(mysqli_affected_rows($rConnection)>0){
-          $sQuery2="SELECT * from sub_category_version where serial_no = 1 ";
-          $sResultSet2 = mysqli_query($rConnection, $sQuery2) or die(mysqli_error($rConnection));
-          if(mysqli_num_rows($qresult2)>0){
-              $r = mysqli_fetch_array($sResultSet2);
-              $version_num = $r['version_num'];
-	           $sQuery3 = "UPDATE sub_category set version_num = $version_num WHERE sub_category_id = $subcategoryid";
+		 //if(mysqli_affected_rows($rConnection)>0){
+      //   $sQuery2="SELECT * from sub_category_version where serial_no = 1 ";
+         // $sResultSet2 = mysqli_query($rConnection, $sQuery2) or die(mysqli_error($rConnection));
+          //if(mysqli_num_rows($qresult2)>0){
+            //  $r = mysqli_fetch_array($sResultSet2);
+              //$version_num = $r['version_num'];
+	           $sQuery3 = "UPDATE sub_category set version_num = version_num+1 WHERE sub_category_id = $subcategoryid";
       	     $aResultSet3 = mysqli_query($rConnection, $sQuery3) or die(mysqli_error($rConnection));
          	  if(mysqli_affected_rows($rConnection)>0)
                {
                  header("Location: ../subcatAdd.php?resp=success&catid=$categoryid"); 
                }
-          }
+         // }
               
          //! Closing the connections
        dbConnectionClose($rConnection);
        
        comment_message_log('End of Function : '. __FUNCTION__);
 
-    }	
+    //}	
   }
   
 ?>

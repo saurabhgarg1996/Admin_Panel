@@ -161,4 +161,297 @@
 07-12-2015 13:09:46 ::: Query Executed Successfully.::: id = $iId ::: INSERT into category (category_name , show_in_app) VALUES('janas','1')
 07-12-2015 13:09:46 ::: End of Function : iInsertCats
 07-12-2015 13:09:46 ::: Start of Function : updateCat
+07-12-2015 13:21:59 ::: Start of Function : iInsertSubCats
+07-12-2015 13:21:59 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'191', 'fgfgf', '0', '');
+07-12-2015 13:21:59 ::: End of Function : iInsertSubCats
+07-12-2015 13:21:59 ::: Start of Function : update
+07-12-2015 13:22:22 ::: Start of Function : iInsertCats
+07-12-2015 13:22:22 ::: Query Executed Successfully.::: id = $iId ::: INSERT into category (category_name , show_in_app) VALUES('ok now ho','0')
+07-12-2015 13:22:22 ::: End of Function : iInsertCats
+07-12-2015 13:22:22 ::: Start of Function : updateCat
+08-12-2015 07:04:57 ::: Start of Function : aGetUserbyPass
+08-12-2015 07:04:57 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+08-12-2015 07:04:57 ::: End of Function : aGetUserbyPass
+08-12-2015 08:32:16 ::: Start of Function : aGetUserbyPass
+08-12-2015 08:32:16 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = '!justdoit';
+08-12-2015 08:32:16 ::: End of Function : aGetUserbyPass
+08-12-2015 08:32:24 ::: Start of Function : aGetUserbyPass
+08-12-2015 08:32:24 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = '' AND `password` = 'justdoit1988!';
+08-12-2015 08:32:24 ::: End of Function : aGetUserbyPass
+08-12-2015 08:32:33 ::: Start of Function : aGetUserbyPass
+08-12-2015 08:32:33 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+08-12-2015 08:32:33 ::: End of Function : aGetUserbyPass
+08-12-2015 08:45:34 ::: Start of Function : iUpdateCats
+08-12-2015 08:45:34 ::: Query Execution failed. :::  UPDATE category set category_name= aaaa , show_in_app= 0 where category_id= 187  ::: Unknown column 'aaaa' in 'field list'
+08-12-2015 08:45:34 ::: End of Function : iUpdateCats
+08-12-2015 08:45:34 ::: Start of Function : updateCat
+08-12-2015 08:45:56 ::: Start of Function : iUpdateCats
+08-12-2015 08:45:56 ::: Query Execution failed. :::  UPDATE category set category_name= aaaa , show_in_app= 0 where category_id= 187  ::: Unknown column 'aaaa' in 'field list'
+08-12-2015 08:45:56 ::: End of Function : iUpdateCats
+08-12-2015 08:50:39 ::: Start of Function : aGetUserbyPass
+08-12-2015 08:50:39 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = '!justdoit';
+08-12-2015 08:50:39 ::: End of Function : aGetUserbyPass
+08-12-2015 08:50:49 ::: Start of Function : aGetUserbyPass
+08-12-2015 08:50:49 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+08-12-2015 08:50:49 ::: End of Function : aGetUserbyPass
+08-12-2015 08:51:20 ::: Start of Function : iUpdateCats
+08-12-2015 08:51:20 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 1 where category_id= 182  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 08:51:20 ::: End of Function : iUpdateCats
+08-12-2015 08:51:20 ::: Start of Function : updateCat
+08-12-2015 08:53:12 ::: Start of Function : aGetUserbyPass
+08-12-2015 08:53:12 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+08-12-2015 08:53:12 ::: End of Function : aGetUserbyPass
+08-12-2015 08:53:25 ::: Start of Function : iUpdateCats
+08-12-2015 08:53:25 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 1 where category_id= 182  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 08:53:25 ::: End of Function : iUpdateCats
+08-12-2015 08:53:25 ::: Start of Function : updateCat
+08-12-2015 08:54:20 ::: Start of Function : iUpdateCats
+08-12-2015 08:54:20 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 1 where category_id= 182  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 08:54:20 ::: End of Function : iUpdateCats
+08-12-2015 08:54:20 ::: Start of Function : updateCat
+08-12-2015 08:56:34 ::: Start of Function : iUpdateCats
+08-12-2015 08:56:34 ::: Query Execution failed. :::  UPDATE category set category_name= Education , show_in_app= 1 where category_id= 24  ::: Unknown column 'Education' in 'field list'
+08-12-2015 08:56:34 ::: End of Function : iUpdateCats
+08-12-2015 08:56:34 ::: Start of Function : updateCat
+08-12-2015 08:58:31 ::: Start of Function : iUpdateCats
+08-12-2015 08:58:31 ::: Query Execution failed. :::  UPDATE category set category_name= aaaa , show_in_app= 1 where category_id= 187  ::: Unknown column 'aaaa' in 'field list'
+08-12-2015 08:58:31 ::: End of Function : iUpdateCats
+08-12-2015 08:58:31 ::: Start of Function : updateCat
+08-12-2015 08:59:24 ::: Start of Function : iUpdateCats
+08-12-2015 08:59:24 ::: Query Execution failed. :::  UPDATE category set category_name= aaaa , show_in_app= 1 where category_id= 187  ::: Unknown column 'aaaa' in 'field list'
+08-12-2015 08:59:24 ::: End of Function : iUpdateCats
+08-12-2015 08:59:24 ::: Start of Function : updateCat
+08-12-2015 09:00:41 ::: Start of Function : iUpdateCats
+08-12-2015 09:00:41 ::: Query Execution failed. :::  UPDATE category set category_name= aaaa , show_in_app= 0 where category_id= 187  ::: Unknown column 'aaaa' in 'field list'
+08-12-2015 09:00:41 ::: End of Function : iUpdateCats
+08-12-2015 09:00:41 ::: Start of Function : updateCat
+08-12-2015 09:01:06 ::: Start of Function : iUpdateCats
+08-12-2015 09:01:06 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 0 where category_id= 182  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 09:01:06 ::: End of Function : iUpdateCats
+08-12-2015 09:01:06 ::: Start of Function : updateCat
+08-12-2015 09:01:30 ::: Start of Function : iUpdateCats
+08-12-2015 09:01:30 ::: Query Execution failed. :::  UPDATE category set category_name= Travels , show_in_app= 0 where category_id= 184  ::: Unknown column 'Travels' in 'field list'
+08-12-2015 09:01:30 ::: End of Function : iUpdateCats
+08-12-2015 09:01:30 ::: Start of Function : updateCat
+08-12-2015 09:02:26 ::: Start of Function : iUpdateCats
+08-12-2015 09:02:26 ::: Query Execution failed. :::  UPDATE category set category_name= Education , show_in_app= 1 where category_id= 24  ::: Unknown column 'Education' in 'field list'
+08-12-2015 09:02:26 ::: End of Function : iUpdateCats
+08-12-2015 09:02:26 ::: Start of Function : updateCat
+08-12-2015 09:03:13 ::: Start of Function : iUpdateCats
+08-12-2015 09:03:13 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 1 where category_id= 182  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 09:03:13 ::: End of Function : iUpdateCats
+08-12-2015 09:03:13 ::: Start of Function : updateCat
+08-12-2015 09:13:03 ::: Start of Function : iInsertCats
+08-12-2015 09:13:03 ::: Query Executed Successfully.::: id = $iId ::: INSERT into category (category_name , show_in_app) VALUES('anbsdh','1')
+08-12-2015 09:13:03 ::: End of Function : iInsertCats
+08-12-2015 09:13:03 ::: Start of Function : updateCat
+08-12-2015 09:22:43 ::: Start of Function : iInsertCats
+08-12-2015 09:22:43 ::: Query Executed Successfully.::: id = $iId ::: INSERT into category (category_name , show_in_app , version_num ) VALUES('Beverages','1', 0 )
+08-12-2015 09:22:43 ::: End of Function : iInsertCats
+08-12-2015 09:22:43 ::: Start of Function : updateCat
+08-12-2015 09:22:43 ::: End of Function : updateCat
+08-12-2015 09:24:54 ::: Start of Function : iUpdateCats
+08-12-2015 09:24:54 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 1 where category_id= 195  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 09:24:54 ::: End of Function : iUpdateCats
+08-12-2015 09:24:54 ::: Start of Function : updateCat
+08-12-2015 09:24:54 ::: End of Function : updateCat
+08-12-2015 09:28:28 ::: Start of Function : iUpdateCats
+08-12-2015 09:28:28 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 1 where category_id= 195  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 09:28:28 ::: End of Function : iUpdateCats
+08-12-2015 09:28:28 ::: Start of Function : updateCat
+08-12-2015 09:28:28 ::: End of Function : updateCat
+08-12-2015 09:29:45 ::: Start of Function : iUpdateCats
+08-12-2015 09:29:45 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 1 where category_id= 195  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 09:29:45 ::: End of Function : iUpdateCats
+08-12-2015 09:29:45 ::: Start of Function : updateCat
+08-12-2015 09:29:45 ::: End of Function : updateCat
+08-12-2015 09:30:02 ::: Start of Function : iUpdateCats
+08-12-2015 09:30:02 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 1 where category_id= 195  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 09:30:02 ::: End of Function : iUpdateCats
+08-12-2015 09:30:02 ::: Start of Function : updateCat
+08-12-2015 09:30:02 ::: End of Function : updateCat
+08-12-2015 09:31:03 ::: Start of Function : iUpdateCats
+08-12-2015 09:31:03 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 1 where category_id= 195  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 09:31:03 ::: End of Function : iUpdateCats
+08-12-2015 09:31:03 ::: Start of Function : updateCat
+08-12-2015 09:31:03 ::: End of Function : updateCat
+08-12-2015 09:32:42 ::: Start of Function : iUpdateCats
+08-12-2015 09:32:42 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 0 where category_id= 195  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 09:32:42 ::: End of Function : iUpdateCats
+08-12-2015 09:32:42 ::: Start of Function : updateCat
+08-12-2015 09:32:42 ::: End of Function : updateCat
+08-12-2015 09:34:05 ::: Start of Function : iUpdateCats
+08-12-2015 09:34:05 ::: Query Execution failed. :::  UPDATE category set category_name= Beverages , show_in_app= 0 where category_id= 195  ::: Unknown column 'Beverages' in 'field list'
+08-12-2015 09:34:05 ::: End of Function : iUpdateCats
+08-12-2015 09:34:25 ::: Start of Function : iUpdateCats
+08-12-2015 09:34:25 ::: Query Execution failed. :::  UPDATE category set category_name= Beveragessdscs , show_in_app= 1 where category_id= 195  ::: Unknown column 'Beveragessdscs' in 'field list'
+08-12-2015 09:34:25 ::: End of Function : iUpdateCats
+08-12-2015 09:38:03 ::: Start of Function : iUpdateCats
+08-12-2015 09:38:03 ::: Query Execution failed. :::  UPDATE category SET 'category_name'=Beverages , 'show_in_app'=1 WHERE 'category_id'=195  ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''category_name'=Beverages , 'show_in_app'=1 WHERE 'category_id'=195' at line 1
+08-12-2015 09:38:03 ::: End of Function : iUpdateCats
+08-12-2015 09:41:12 ::: Start of Function : iUpdateCats
+08-12-2015 09:41:13 ::: Query Execution failed. ::: UPDATE category SET category_name=Beveragesa , show_in_app=0 WHERE category_id=195 ::: Unknown column 'Beveragesa' in 'field list'
+08-12-2015 09:41:13 ::: End of Function : iUpdateCats
+08-12-2015 09:41:38 ::: Start of Function : iUpdateCats
+08-12-2015 09:41:38 ::: Query Execution failed. ::: UPDATE category SET category_name=Beveragesaa , show_in_app=0 WHERE category_id=195 ::: Unknown column 'Beveragesaa' in 'field list'
+08-12-2015 09:41:38 ::: End of Function : iUpdateCats
+08-12-2015 09:43:54 ::: Start of Function : iUpdateCats
+08-12-2015 09:43:54 ::: Query Execution failed. ::: UPDATE category SET category_name = Beveragesa , show_in_app = 0 WHERE category_id = 195 ::: Unknown column 'Beveragesa' in 'field list'
+08-12-2015 09:43:54 ::: End of Function : iUpdateCats
+08-12-2015 09:46:45 ::: Start of Function : iUpdateCats
+08-12-2015 09:46:45 ::: Query Execution failed. ::: UPDATE category SET `category_name` = Beveragesa , `show_in_app` = 0 WHERE `category_id` = 195 ::: Unknown column 'Beveragesa' in 'field list'
+08-12-2015 09:46:45 ::: End of Function : iUpdateCats
+08-12-2015 10:19:54 ::: Start of Function : aGetUserbyPass
+08-12-2015 10:19:54 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+08-12-2015 10:19:54 ::: End of Function : aGetUserbyPass
+08-12-2015 10:23:34 ::: Start of Function : iUpdateCats
+08-12-2015 10:23:34 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beveragesa' , `show_in_app` = '0' WHERE `category_id` = '195'
+08-12-2015 10:23:34 ::: End of Function : iUpdateCats
+08-12-2015 10:23:46 ::: Start of Function : iUpdateCats
+08-12-2015 10:23:46 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:23:46 ::: End of Function : iUpdateCats
+08-12-2015 10:24:49 ::: Start of Function : iUpdateCats
+08-12-2015 10:24:49 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:24:49 ::: End of Function : iUpdateCats
+08-12-2015 10:24:49 ::: Start of Function : updateCat
+08-12-2015 10:24:49 ::: End of Function : updateCat
+08-12-2015 10:24:59 ::: Start of Function : iUpdateCats
+08-12-2015 10:25:00 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:25:00 ::: End of Function : iUpdateCats
+08-12-2015 10:25:00 ::: Start of Function : updateCat
+08-12-2015 10:25:00 ::: End of Function : updateCat
+08-12-2015 10:31:19 ::: Start of Function : iUpdateCats
+08-12-2015 10:31:19 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:31:19 ::: End of Function : iUpdateCats
+08-12-2015 10:33:25 ::: Start of Function : iUpdateCats
+08-12-2015 10:33:25 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:33:25 ::: End of Function : iUpdateCats
+08-12-2015 10:33:25 ::: Start of Function : updateCat
+08-12-2015 10:33:25 ::: End of Function : updateCat
+08-12-2015 10:33:45 ::: Start of Function : iUpdateCats
+08-12-2015 10:33:45 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:33:45 ::: End of Function : iUpdateCats
+08-12-2015 10:33:45 ::: Start of Function : updateCat
+08-12-2015 10:33:45 ::: End of Function : updateCat
+08-12-2015 10:34:22 ::: Start of Function : iUpdateCats
+08-12-2015 10:34:22 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Education' , `show_in_app` = '1' WHERE `category_id` = '24'
+08-12-2015 10:34:22 ::: End of Function : iUpdateCats
+08-12-2015 10:34:22 ::: Start of Function : updateCat
+08-12-2015 10:34:22 ::: End of Function : updateCat
+08-12-2015 10:36:04 ::: Start of Function : iUpdateCats
+08-12-2015 10:36:04 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Education' , `show_in_app` = '1' WHERE `category_id` = '24'
+08-12-2015 10:36:04 ::: End of Function : iUpdateCats
+08-12-2015 10:36:04 ::: Start of Function : updateCat
+08-12-2015 10:36:04 ::: End of Function : updateCat
+08-12-2015 10:36:25 ::: Start of Function : iUpdateCats
+08-12-2015 10:36:25 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Fashion' , `show_in_app` = '1' WHERE `category_id` = '27'
+08-12-2015 10:36:25 ::: End of Function : iUpdateCats
+08-12-2015 10:36:25 ::: Start of Function : updateCat
+08-12-2015 10:36:25 ::: End of Function : updateCat
+08-12-2015 10:37:01 ::: Start of Function : iUpdateCats
+08-12-2015 10:37:01 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Fashion' , `show_in_app` = '1' WHERE `category_id` = '27'
+08-12-2015 10:37:01 ::: End of Function : iUpdateCats
+08-12-2015 10:38:09 ::: Start of Function : iUpdateCats
+08-12-2015 10:38:09 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:38:09 ::: End of Function : iUpdateCats
+08-12-2015 10:38:25 ::: Start of Function : iUpdateCats
+08-12-2015 10:38:25 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:38:25 ::: End of Function : iUpdateCats
+08-12-2015 10:38:32 ::: Start of Function : iUpdateCats
+08-12-2015 10:38:32 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:38:32 ::: End of Function : iUpdateCats
+08-12-2015 10:38:40 ::: Start of Function : iUpdateCats
+08-12-2015 10:38:40 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:38:40 ::: End of Function : iUpdateCats
+08-12-2015 10:38:40 ::: Start of Function : updateCat
+08-12-2015 10:38:40 ::: End of Function : updateCat
+08-12-2015 10:38:54 ::: Start of Function : iUpdateCats
+08-12-2015 10:38:54 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:38:54 ::: End of Function : iUpdateCats
+08-12-2015 10:40:34 ::: Start of Function : iUpdateCats
+08-12-2015 10:40:34 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:40:34 ::: End of Function : iUpdateCats
+08-12-2015 10:40:48 ::: Start of Function : iUpdateCats
+08-12-2015 10:40:48 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Education' , `show_in_app` = '1' WHERE `category_id` = '24'
+08-12-2015 10:40:48 ::: End of Function : iUpdateCats
+08-12-2015 10:40:57 ::: Start of Function : iUpdateCats
+08-12-2015 10:40:57 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Education' , `show_in_app` = '1' WHERE `category_id` = '24'
+08-12-2015 10:40:57 ::: End of Function : iUpdateCats
+08-12-2015 10:41:07 ::: Start of Function : iUpdateCats
+08-12-2015 10:41:07 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Education' , `show_in_app` = '1' WHERE `category_id` = '24'
+08-12-2015 10:41:07 ::: End of Function : iUpdateCats
+08-12-2015 10:41:18 ::: Start of Function : iUpdateCats
+08-12-2015 10:41:18 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Education' , `show_in_app` = '1' WHERE `category_id` = '24'
+08-12-2015 10:41:18 ::: End of Function : iUpdateCats
+08-12-2015 10:41:42 ::: Start of Function : iUpdateCats
+08-12-2015 10:41:42 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Education' , `show_in_app` = '1' WHERE `category_id` = '24'
+08-12-2015 10:41:42 ::: End of Function : iUpdateCats
+08-12-2015 10:41:42 ::: Start of Function : updateCat
+08-12-2015 10:41:42 ::: End of Function : updateCat
+08-12-2015 10:43:10 ::: Start of Function : iUpdateCats
+08-12-2015 10:43:10 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:43:10 ::: End of Function : iUpdateCats
+08-12-2015 10:43:10 ::: Start of Function : updateCat
+08-12-2015 10:43:10 ::: End of Function : updateCat
+08-12-2015 10:43:22 ::: Start of Function : iUpdateCats
+08-12-2015 10:43:22 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:43:22 ::: End of Function : iUpdateCats
+08-12-2015 10:43:22 ::: Start of Function : updateCat
+08-12-2015 10:43:22 ::: End of Function : updateCat
+08-12-2015 10:46:06 ::: Start of Function : iUpdateCats
+08-12-2015 10:46:06 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:46:06 ::: End of Function : iUpdateCats
+08-12-2015 10:46:22 ::: Start of Function : iUpdateCats
+08-12-2015 10:46:22 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:46:22 ::: End of Function : iUpdateCats
+08-12-2015 10:46:22 ::: Start of Function : updateCat
+08-12-2015 10:47:11 ::: Start of Function : iUpdateCats
+08-12-2015 10:47:11 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:47:11 ::: End of Function : iUpdateCats
+08-12-2015 10:47:11 ::: Start of Function : updateCat
+08-12-2015 10:48:03 ::: Start of Function : iUpdateCats
+08-12-2015 10:48:03 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Beverages' , `show_in_app` = '1' WHERE `category_id` = '195'
+08-12-2015 10:48:03 ::: End of Function : iUpdateCats
+08-12-2015 10:48:03 ::: Start of Function : updateCat
+08-12-2015 10:48:03 ::: End of Function : updateCat
+08-12-2015 10:48:21 ::: Start of Function : iUpdateCats
+08-12-2015 10:48:21 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Fitness' , `show_in_app` = '1' WHERE `category_id` = '151'
+08-12-2015 10:48:21 ::: End of Function : iUpdateCats
+08-12-2015 10:48:21 ::: Start of Function : updateCat
+08-12-2015 10:48:21 ::: End of Function : updateCat
+08-12-2015 10:48:41 ::: Start of Function : iInsertCats
+08-12-2015 10:48:41 ::: Query Executed Successfully.::: id = $iId ::: INSERT into category (category_name , show_in_app , version_num ) VALUES('Travels','1', 0 )
+08-12-2015 10:48:41 ::: End of Function : iInsertCats
+08-12-2015 10:48:41 ::: Start of Function : updateCat
+08-12-2015 10:48:42 ::: End of Function : updateCat
+08-12-2015 10:49:28 ::: Start of Function : iUpdateCats
+08-12-2015 10:49:28 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Travels' , `show_in_app` = '0' WHERE `category_id` = '196'
+08-12-2015 10:49:28 ::: End of Function : iUpdateCats
+08-12-2015 10:49:28 ::: Start of Function : updateCat
+08-12-2015 10:49:28 ::: End of Function : updateCat
+08-12-2015 10:50:42 ::: Start of Function : iInsertCats
+08-12-2015 10:50:42 ::: Query Executed Successfully.::: id = $iId ::: INSERT into category (category_name , show_in_app , version_num ) VALUES('Theater','1', 0 )
+08-12-2015 10:50:42 ::: End of Function : iInsertCats
+08-12-2015 10:50:42 ::: Start of Function : updateCat
+08-12-2015 10:50:42 ::: End of Function : updateCat
+08-12-2015 10:51:41 ::: Start of Function : iUpdateCats
+08-12-2015 10:51:41 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Travels' , `show_in_app` = '1' WHERE `category_id` = '196'
+08-12-2015 10:51:41 ::: End of Function : iUpdateCats
+08-12-2015 10:51:41 ::: Start of Function : updateCat
+08-12-2015 10:51:41 ::: End of Function : updateCat
+08-12-2015 10:52:04 ::: Start of Function : iUpdateCats
+08-12-2015 10:52:04 ::: Query Executed Successfully.::: id = $iId ::: UPDATE category SET `category_name` = 'Education' , `show_in_app` = '1' WHERE `category_id` = '24'
+08-12-2015 10:52:04 ::: End of Function : iUpdateCats
+08-12-2015 10:52:04 ::: Start of Function : updateCat
+08-12-2015 10:52:04 ::: End of Function : updateCat
+08-12-2015 10:57:14 ::: Start of Function : iInsertSubCats
+08-12-2015 10:57:14 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'aaaaaaaaaaaaaa', '1', '');
+08-12-2015 10:57:14 ::: End of Function : iInsertSubCats
+08-12-2015 10:57:14 ::: Start of Function : update
+08-12-2015 10:57:14 ::: End of Function : update
+08-12-2015 10:59:08 ::: Start of Function : iInsertSubCats
+08-12-2015 10:59:08 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'zzz', '1', '');
+08-12-2015 10:59:08 ::: End of Function : iInsertSubCats
+08-12-2015 10:59:08 ::: Start of Function : update
+08-12-2015 10:59:08 ::: End of Function : update
 

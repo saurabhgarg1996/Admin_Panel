@@ -48,7 +48,8 @@ if(!empty($subcategoryname)){
 					
 				if (move_uploaded_file($_FILES["upload_subcategory_image"]["tmp_name"], $target_file)) {
 					$response="insert=success";
-					update($up,$category_id);					
+					update($up,$category_id);		
+								header("location: ../subcatAdd.php?in=1");
 				}
 				else{
 					$response = "insert=failed";
