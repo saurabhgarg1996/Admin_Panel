@@ -454,4 +454,36 @@
 08-12-2015 10:59:08 ::: End of Function : iInsertSubCats
 08-12-2015 10:59:08 ::: Start of Function : update
 08-12-2015 10:59:08 ::: End of Function : update
+08-12-2015 12:18:27 ::: Start of Function : aGetUserbyPass
+08-12-2015 12:18:27 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+08-12-2015 12:18:27 ::: End of Function : aGetUserbyPass
+08-12-2015 12:19:14 ::: Start of Function : aGetUserbyPass
+08-12-2015 12:19:14 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+08-12-2015 12:19:14 ::: End of Function : aGetUserbyPass
+08-12-2015 12:22:47 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:22:47 ::: Query Execution failed. ::: UPDATE sub_category SET `category_id` = '' , `sub_category_name` = 'aaaaa' `show_in_app` = '1' WHERE `sub_category_id` = '403' ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`show_in_app` = '1' WHERE `sub_category_id` = '403'' at line 1
+08-12-2015 12:22:47 ::: End of Function : iUpdatesubCats
+08-12-2015 12:24:21 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:24:21 ::: Query Execution failed. ::: UPDATE sub_category SET `category_id` = '' , `sub_category_name` = 'aaaaa' `show_in_app` = '1' WHERE `sub_category_id` = '403' ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`show_in_app` = '1' WHERE `sub_category_id` = '403'' at line 1
+08-12-2015 12:24:21 ::: End of Function : iUpdatesubCats
+08-12-2015 12:24:53 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:24:53 ::: Query Execution failed. ::: UPDATE sub_category SET `category_id` = '' , `sub_category_name` = 'aaaaa' `show_in_app` = '1' WHERE `sub_category_id` = '403' ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`show_in_app` = '1' WHERE `sub_category_id` = '403'' at line 1
+08-12-2015 12:24:53 ::: End of Function : iUpdatesubCats
+08-12-2015 12:24:53 ::: Start of Function : updateCat
+08-12-2015 12:24:53 ::: End of Function : updateCat
+08-12-2015 12:25:14 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:25:14 ::: Query Execution failed. ::: UPDATE sub_category SET `category_id` = '' , `sub_category_name` = 'aaaaa' `show_in_app` = '0' WHERE `sub_category_id` = '403' ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`show_in_app` = '0' WHERE `sub_category_id` = '403'' at line 1
+08-12-2015 12:25:14 ::: End of Function : iUpdatesubCats
+08-12-2015 12:26:12 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:26:12 ::: Query Execution failed. ::: UPDATE sub_category SET `category_id` = '' , `sub_category_name` = 'aaaaa' `show_in_app` = '1' WHERE `sub_category_id` = '403' ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`show_in_app` = '1' WHERE `sub_category_id` = '403'' at line 1
+08-12-2015 12:26:12 ::: End of Function : iUpdatesubCats
+08-12-2015 12:28:32 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:28:32 ::: Query Execution failed. ::: UPDATE sub_category SET `category_id` = '' , `sub_category_name` = 'aaaaa',`show_in_app` = '0' WHERE `sub_category_id` = '403'  ::: Cannot add or update a child row: a foreign key constraint fails (`sociomar_miamia`.`sub_category`, CONSTRAINT `sub_category_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+08-12-2015 12:28:32 ::: End of Function : iUpdatesubCats
+08-12-2015 12:29:49 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:29:49 ::: Query Execution failed. ::: UPDATE sub_category SET `category_id` = '' , `sub_category_name` = 'a',`show_in_app` = '0' WHERE `sub_category_id` = '394'  ::: Cannot add or update a child row: a foreign key constraint fails (`sociomar_miamia`.`sub_category`, CONSTRAINT `sub_category_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+08-12-2015 12:29:49 ::: End of Function : iUpdatesubCats
+08-12-2015 12:30:53 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:30:53 ::: Query Executed Successfully.::: id = $iId ::: UPDATE sub_category SET `category_id` = '24' , `sub_category_name` = 'aaaaa',`show_in_app` = '0' WHERE `sub_category_id` = '403' 
+08-12-2015 12:30:53 ::: End of Function : iUpdatesubCats
 

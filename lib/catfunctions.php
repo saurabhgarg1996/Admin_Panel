@@ -206,7 +206,7 @@
         }
 
         //! Query
-        $sQuery = "UPDATE category SET `category_name` = '$name' , `show_in_app` = '$show_in_app' WHERE `category_id` = '$id'"; 
+        $sQuery = "UPDATE category SET `category_name` = '$name' , `show_in_app` = '$show_in_app' WHERE `category_id` = '$id' "; 
         //! Executing the query
         $res= mysqli_query($rConnection, $sQuery);
 
