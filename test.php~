@@ -1,0 +1,10 @@
+ <form name="submit" role="form" enctype="multipart/form-data" method="post" action="process/OwnerServiceProcess.php">
+ 	<select id="selectError" data-rel="chosen" name="subcategoryids[]" multiple>
+ 		<option value="2"> a</option>
+		 <option value="3"> b</option>
+		 <option value="4"> h</option>
+		 <option value="5"> c</option>
+		 <option value="6"> g</option>
+		 <option value="7"> f</option>
+ 	</select>
+ 	</form>

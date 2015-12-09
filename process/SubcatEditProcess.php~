@@ -59,7 +59,7 @@
 						if ($response == "insert=success"){
 								if (move_uploaded_file($_FILES["upload_subcategory_image"]["tmp_name"], $target_file)) {
 									$response="insert=success";
-									updateCat($category_id);	
+									update($sub_category_id,$category_id);	
 									header("location: ../remSubCategories.php?in=1");				
 								}
 								else{

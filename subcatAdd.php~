@@ -63,7 +63,7 @@ include_once "lib/subcatfunctions.php";
 								if(count($rv) > 0){
 									if(is_array($rv)){
 										foreach ($rv as $rv1){
-											echo "<option value='".$rv1['category_id']."' selected='selected'=>".$rv1['category_name']."</option>";
+											echo "<option value='".$rv1['category_id']."'>".$rv1['category_name']."</option>";
 										}
 									}
 								}

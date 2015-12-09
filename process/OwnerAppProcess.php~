@@ -1,0 +1,66 @@
+<?php
+	include_once "logincheck1.php";
+
+$response= "";
+
+
+include_once "../lib/sm-connection.php";
+include_once "../lib/sm-constant.php";
+include_once "../lib/ownerappfunctions.php";
+
+//$owner_id= $_POST['owner_id'];
+$owner_name = "Saurabh";//$_POST['owner_name'];
+$owner_email = "garg.saurabh.2014@gmail.com";//$_POST['owner_email'];
+$service_mobile_num = "9999999999";//$_POST['service_mobile'];
+$password = md5("abc");//md5($_POST['pass']);
+$date = time();
+
+$created_at = date("Y-m-d H:i:s", $date); //$_POST['timestamp'];
+$isActive = 1;//$_POST['isActive'];
+$type = "Premium"; //$_POST['type'];
+if (!empty($owner_name)) {
+	$data = insertintoownerapp($owner_name,$owner_email,$service_mobile_num,$password,$created_at,$isActive,$type);
+	if(!empty($_FILES["owner_image"]["tmp_name"])){	
+		
+		if($data>0)
+		{
+			$target_dir = "/opt/lampp/htdocs/PHP/2/categoryimages/";
+			$target_file = $target_dir."$data"."_icon.jpg";		
+			$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
+			$ownericon_name = basename($_FILES['owner_image']['name']);
+			$check = getimagesize($_FILES["owner_image"]["tmp_name"]);
+			if($check!=false) {
+				$response = "insert=success";
+			}
+			if (file_exists($target_file)) {
+				$response = "insert=failed";
+			}
+			if ($_FILES["upload_subcategory_image"]["size"] > 5000000) {
+				$response = "insert=failed";
+			}
+			if ($imageFileType != "jpg") {
+				$response = "insert=failed";
+			}
+			if ($response == "insert=success") {
+				if (move_uploaded_file($_FILES["owner_image"]["tmp_name"], $target_file)) {
+						$response = "insert=success";
+				}
+				else {
+					$response = "insert=failed";
+				}
+			}
+		}
+		else {
+			$response = "insert=failed";		
+		}
+	}
+	else {
+		$response = "insert=failed";
+	}
+
+}
+else {
+	$response = "insert=failed";
+}
+
+?>

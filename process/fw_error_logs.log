@@ -486,4 +486,69 @@
 08-12-2015 12:30:53 ::: Start of Function : iUpdatesubCats
 08-12-2015 12:30:53 ::: Query Executed Successfully.::: id = $iId ::: UPDATE sub_category SET `category_id` = '24' , `sub_category_name` = 'aaaaa',`show_in_app` = '0' WHERE `sub_category_id` = '403' 
 08-12-2015 12:30:53 ::: End of Function : iUpdatesubCats
+08-12-2015 12:37:42 ::: Start of Function : iInsertSubCats
+08-12-2015 12:37:42 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'hagsds', '0', '');
+08-12-2015 12:37:42 ::: End of Function : iInsertSubCats
+08-12-2015 12:37:42 ::: Start of Function : update
+08-12-2015 12:37:42 ::: End of Function : update
+08-12-2015 12:38:01 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:38:01 ::: Query Executed Successfully.::: id = $iId ::: UPDATE sub_category SET `category_id` = '24' , `sub_category_name` = 'hagsds',`show_in_app` = '1' WHERE `sub_category_id` = '407' 
+08-12-2015 12:38:01 ::: End of Function : iUpdatesubCats
+08-12-2015 12:38:14 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:38:14 ::: Query Executed Successfully.::: id = $iId ::: UPDATE sub_category SET `category_id` = '24' , `sub_category_name` = 'hagsds',`show_in_app` = '1' WHERE `sub_category_id` = '407' 
+08-12-2015 12:38:14 ::: End of Function : iUpdatesubCats
+08-12-2015 12:38:14 ::: Start of Function : updateCat
+08-12-2015 12:38:14 ::: End of Function : updateCat
+08-12-2015 12:38:39 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:38:39 ::: Query Executed Successfully.::: id = $iId ::: UPDATE sub_category SET `category_id` = '24' , `sub_category_name` = 'hagsds',`show_in_app` = '1' WHERE `sub_category_id` = '407' 
+08-12-2015 12:38:39 ::: End of Function : iUpdatesubCats
+08-12-2015 12:38:39 ::: Start of Function : updateCat
+08-12-2015 12:38:39 ::: End of Function : updateCat
+08-12-2015 12:40:18 ::: Start of Function : iInsertSubCats
+08-12-2015 12:40:18 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'24', 'xjncszxm', '1', '0');
+08-12-2015 12:40:18 ::: End of Function : iInsertSubCats
+08-12-2015 12:40:18 ::: Start of Function : update
+08-12-2015 12:40:18 ::: End of Function : update
+08-12-2015 12:40:47 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:40:47 ::: Query Executed Successfully.::: id = $iId ::: UPDATE sub_category SET `category_id` = '24' , `sub_category_name` = 'xjncszxm',`show_in_app` = '0' WHERE `sub_category_id` = '408' 
+08-12-2015 12:40:47 ::: End of Function : iUpdatesubCats
+08-12-2015 12:40:47 ::: Start of Function : updateCat
+08-12-2015 12:40:47 ::: End of Function : updateCat
+08-12-2015 12:44:20 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:44:20 ::: Query Executed Successfully.::: id = $iId ::: UPDATE sub_category SET `category_id` = '24' , `sub_category_name` = 'aaaaaaaaaaaaaa',`show_in_app` = '0' WHERE `sub_category_id` = '405' 
+08-12-2015 12:44:20 ::: End of Function : iUpdatesubCats
+08-12-2015 12:44:20 ::: Start of Function : update
+08-12-2015 12:44:54 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:44:54 ::: Query Executed Successfully.::: id = $iId ::: UPDATE sub_category SET `category_id` = '24' , `sub_category_name` = 'xjncszxm',`show_in_app` = '1' WHERE `sub_category_id` = '408' 
+08-12-2015 12:44:54 ::: End of Function : iUpdatesubCats
+08-12-2015 12:44:54 ::: Start of Function : update
+08-12-2015 12:46:07 ::: Start of Function : iUpdatesubCats
+08-12-2015 12:46:08 ::: Query Executed Successfully.::: id = $iId ::: UPDATE sub_category SET `category_id` = '24' , `sub_category_name` = 'xjncszxm',`show_in_app` = '1' WHERE `sub_category_id` = '408' 
+08-12-2015 12:46:08 ::: End of Function : iUpdatesubCats
+08-12-2015 12:46:08 ::: Start of Function : update
+08-12-2015 12:46:08 ::: End of Function : update
+09-12-2015 08:09:32 ::: Start of Function : aGetUserbyPass
+09-12-2015 08:09:32 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+09-12-2015 08:09:32 ::: End of Function : aGetUserbyPass
+09-12-2015 12:09:46 ::: Start of Function : insertintoownerapp
+09-12-2015 12:09:46 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `ownerapp` (`owner_id`,`owner_name`, `owner_email`, `service_mobile_number`, `password`, `timeStamp`,`isActive`,`type`) VALUES (NULL, 'Saurabh','garg.saurabh.2014@gmail.com','','900150983cd24fb0d6963f7d28e17f72','1449659386','1','Premium');
+09-12-2015 12:09:46 ::: End of Function : insertintoownerapp
+09-12-2015 12:10:05 ::: Start of Function : insertintoownerapp
+09-12-2015 12:10:06 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `ownerapp` (`owner_id`,`owner_name`, `owner_email`, `service_mobile_number`, `password`, `timeStamp`,`isActive`,`type`) VALUES (NULL, 'Saurabh','garg.saurabh.2014@gmail.com','9999999999','900150983cd24fb0d6963f7d28e17f72','1449659405','1','Premium');
+09-12-2015 12:10:06 ::: End of Function : insertintoownerapp
+09-12-2015 12:21:12 ::: Start of Function : insertintoownerapp
+09-12-2015 12:21:12 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `ownerapp` (`owner_id`,`owner_name`, `owner_email`, `service_mobile_number`, `password`, `timeStamp`,`isActive`,`type`) VALUES (NULL, 'Saurabh','garg.saurabh.2014@gmail.com','9999999999','900150983cd24fb0d6963f7d28e17f72','2015-12-09 12:21:12','1','Premium');
+09-12-2015 12:21:12 ::: End of Function : insertintoownerapp
+09-12-2015 13:41:28 ::: Start of Function : insertintoownerservices
+09-12-2015 13:41:28 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `ownerservice` (`service_id`,`owner_id`,`category_id`, `service_name`, `service_details`, `service_website`, `timeStamp`) VALUES (NULL, '461','24','IIT_JEE','OF NO USE','www.bothraclasses.com','2015-12-09 13:41:28');
+09-12-2015 13:41:28 ::: End of Function : insertintoownerservices
+09-12-2015 13:41:28 ::: Start of Function : insertintoservicesubcatrelation
+09-12-2015 13:41:28 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `servicesubcatrelation` (`service_id`,`sub_category_id`) VALUES ('605', '2');
+09-12-2015 13:41:28 ::: End of Function : insertintoservicesubcatrelation
+09-12-2015 13:41:28 ::: Start of Function : insertintoservicesubcatrelation
+09-12-2015 13:41:28 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `servicesubcatrelation` (`service_id`,`sub_category_id`) VALUES ('605', '3');
+09-12-2015 13:41:28 ::: End of Function : insertintoservicesubcatrelation
+09-12-2015 13:41:28 ::: Start of Function : insertintoservicesubcatrelation
+09-12-2015 13:41:28 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `servicesubcatrelation` (`service_id`,`sub_category_id`) VALUES ('605', '4');
+09-12-2015 13:41:28 ::: End of Function : insertintoservicesubcatrelation
 

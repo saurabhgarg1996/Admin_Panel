@@ -1,0 +1,49 @@
+<?php
+	function insertintoownerapp($owner_name,$owner_email,$service_mobile_num,$password,$created_at,$isActive,$type)
+	{
+		 //! Message Loggin
+        comment_message_log('Start of Function : '. __FUNCTION__);
+
+        //! Data base connection
+        $rConnection = dbConnection();
+
+        /*!
+         * Check if the database Connection is failed
+         */
+        if(!$rConnection) {
+            //! Message Loggin
+            comment_message_log('End of Function : '. __FUNCTION__);
+            return E00010;
+        }
+
+        //! Query
+        $sQuery = "INSERT INTO `ownerapp` (`owner_id`,`owner_name`, `owner_email`, `service_mobile_number`, `password`, `timeStamp`,`isActive`,`type`) VALUES (NULL, '$owner_name','$owner_email','$service_mobile_num','$password','$created_at','$isActive','$type');";
+
+        //! Executing the query
+        $res= mysqli_query($rConnection, $sQuery);
+
+        /*!
+         * Check If the Query executed properly
+         */
+        if($res ) {
+            $owner_id = mysqli_insert_id($rConnection);
+
+            //! Closing the connections
+            dbConnectionClose($rConnection);
+
+            //! Message Login
+            comment_message_log('Query Executed Successfully.::: owner_id = $owner_id ::: '.$sQuery);
+            comment_message_log('End of Function : '. __FUNCTION__);
+
+            return $owner_id;
+        } else {
+            comment_message_log('Query Execution failed. ::: '. $sQuery .' ::: '.@mysqli_error($rConnection));
+            comment_message_log('End of Function : '. __FUNCTION__);
+            //! Closing the connections
+            dbConnectionClose($rConnection);
+
+            return E00100;
+        }
+    }	
+	
+?>

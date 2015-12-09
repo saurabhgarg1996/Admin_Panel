@@ -1,7 +1,7 @@
 <?php
 
     //! Insert Users Details
-    function iInsertSubCats($category_id, $sub_category_name, $show_in_app, $version_num) {
+    function iInsertSubCats($], $sub_category_name, $show_in_app, $version_num) {
         //! Message Loggin
         comment_message_log('Start of Function : '. __FUNCTION__);
 

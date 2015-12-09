@@ -20,7 +20,7 @@ $subcategoryname = trim(htmlspecialchars($subcategoryname));
 if(!empty($subcategoryname)){
 	//$val = $_FILES["upload_subcategory_image"]["tmp_name"];
 	if(!empty($_FILES["upload_subcategory_image"]["tmp_name"])){
-		$up = iInsertSubCats($categoryid, $subcategoryname, $showinapp, '');
+		$up = iInsertSubCats($categoryid, $subcategoryname, $showinapp, 0);
 		if($up>0){
 			
 			$target_dir = "/opt/lampp/htdocs/PHP/2/categoryimages/";
