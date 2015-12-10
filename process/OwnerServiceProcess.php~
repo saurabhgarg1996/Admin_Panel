@@ -6,7 +6,7 @@ $response= "";
 
 include_once "../lib/sm-connection.php";
 include_once "../lib/sm-constant.php";
-include_once "../lib/ownerServiceFunctions.php";
+include_once "../lib/ownerServiceFunction.php";
 
 //$owner_id= $_POST['owner_id'];
 $owner_id = 461;//$_POST['owner_id'];

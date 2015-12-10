@@ -45,7 +45,7 @@
             return E00100;
         }
     }
-    function insertintoservicesubcatrelation($data,$subcategory_id)
+    function insertintoservicesubcatrelation($service_id,$ent_id,$free_id,$subcategory_id)
     {
 			 //! Message Loggin
         comment_message_log('Start of Function : '. __FUNCTION__);
@@ -63,7 +63,7 @@
         }
 
         //! Query
-        $sQuery = "INSERT INTO `servicesubcatrelation` (`service_id`,`sub_category_id`) VALUES ('$data', '$subcategory_id');";
+        $sQuery = "INSERT INTO `servicesubcatrelation` (`service_id`,`ent_id`,`free_id`,`sub_category_id`) VALUES ('$service_id','$ent_id','$free_id','$subcategory_id');";
 
         //! Executing the query
         $res= mysqli_query($rConnection, $sQuery);

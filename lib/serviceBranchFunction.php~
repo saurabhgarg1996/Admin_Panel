@@ -1,7 +1,7 @@
 <?php
-function insertintoratings($user_id,$name,$email,$message,$rating,$approval,$branch_id,$singleent_id,$freeservice_id,$created_at)
-{
-	 //! Message Loggin
+	function insertintoserviceBranch($service_id, $branch_name,$branch_email ,$branch_contact_name,$branch_mobile_number,$branch_landline_number,$branch_address,$branch_area ,$branch_city ,$branch_pincode ,$branch_state ,$branch_country ,$branch_lat ,$branch_lng,$isEnabled ,$listingType ,$ProvidesFreeSrvc ,$premiumStartDate ,$premiumEndDate,$amount_paid ,$created_at)
+	{
+		 //! Message Loggin
         comment_message_log('Start of Function : '. __FUNCTION__);
 
         //! Data base connection
@@ -17,7 +17,7 @@ function insertintoratings($user_id,$name,$email,$message,$rating,$approval,$bra
         }
 
         //! Query
-        $sQuery = "INSERT INTO `ratings` (`rating_id`,`user_id`,`name`, `email`, `message`, `rating`,`approval`,`branch_id`,`singleent_id`,`freeservice_id`, `timeStamp`) VALUES (NULL, '$user_id','$name','$email','$message','$rating','$approval','$branch_id','$singleent_id','$freeservice_id','$created_at');";
+        $sQuery = "INSERT INTO `servicebranch` (`branch_id`,`service_id`, `branch_name`,`branch_email` ,`branch_contact_name`,`branch_mobile_number`,`branch_landline_number`,`branch_address`,`branch_area`,`branch_city` ,`branch_pincode`,`branch_state` ,`branch_country`,`branch_lat` ,`branch_lng`,`isEnabled` ,`listingType` ,`ProvidesFreeSrvc` ,`premiumStartDate` ,`premiumEndDate`,`amount_paid`,`timeStamp`) VALUES (NULL, '$service_id', '$branch_name' , '$branch_email' , '$branch_contact_name' , '$branch_mobile_number', '$branch_landline_number' , '$branch_address','$branch_area' ,'$branch_city' ,'$branch_pincode' ,'$branch_state' ,'$branch_country' ,'$branch_lat' ,'$branch_lng','$isEnabled ','$listingType ','$ProvidesFreeSrvc ','$premiumStartDate ','$premiumEndDate','$amount_paid' ,'$created_at');";
 
         //! Executing the query
         $res= mysqli_query($rConnection, $sQuery);
@@ -26,11 +26,12 @@ function insertintoratings($user_id,$name,$email,$message,$rating,$approval,$bra
          * Check If the Query executed properly
          */
         if($res ) {
-            $rating_id = mysqli_insert_id($rConnection);
+            $branch_id = mysqli_insert_id($rConnection);
 
             //! Closing the connections
             dbConnectionClose($rConnection);
 
+				return $branch_id;
             //! Message Login
             comment_message_log('Query Executed Successfully.::: owner_id = $owner_id ::: '.$sQuery);
             comment_message_log('End of Function : '. __FUNCTION__);
@@ -42,10 +43,9 @@ function insertintoratings($user_id,$name,$email,$message,$rating,$approval,$bra
 
             return E00100;
         }
-
-}
-function getAllratings()
-{
+	}
+	function insertintoimages($data,$singleent_id,$freeservice_id,$type,$image_name,$created_at)
+	{
 		//! Message Loggin
         comment_message_log('Start of Function : '. __FUNCTION__);
 
@@ -62,7 +62,8 @@ function getAllratings()
         }
 
         //! Query
-        $sQuery = "SELECT * FROM `ratings` ";
+        $sQuery = "INSERT INTO `images` (`img_id`,`branch_id`, `singleent_id`,`freeservice_id` ,`type`,`image_name`,`timestamp`) VALUES (NULL, '$branch_id','$sungleent_id','$freeservice_id','$type','$image_name' ,'$created_at');";
+
         //! Executing the query
         $res= mysqli_query($rConnection, $sQuery);
 
@@ -70,22 +71,15 @@ function getAllratings()
          * Check If the Query executed properly
          */
         if($res ) {
-           
-            $data = array();
-
-            //! retrieve the result from the result set
-            while($aRow = mysqli_fetch_assoc($res)) {
-                $data[] = $aRow;
-            }
+            $img_id = mysqli_insert_id($rConnection);
 
             //! Closing the connections
             dbConnectionClose($rConnection);
 
+				return $img_id;
             //! Message Login
             comment_message_log('Query Executed Successfully.::: owner_id = $owner_id ::: '.$sQuery);
             comment_message_log('End of Function : '. __FUNCTION__);
-
-            return $data;
         } else {
             comment_message_log('Query Execution failed. ::: '. $sQuery .' ::: '.@mysqli_error($rConnection));
             comment_message_log('End of Function : '. __FUNCTION__);
@@ -94,7 +88,6 @@ function getAllratings()
 
             return E00100;
         }
-}
-
- 
-?>
+	}
+	?>
+	

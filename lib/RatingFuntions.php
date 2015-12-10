@@ -1,32 +1,101 @@
 <?php
-	include_once "logincheck1.php";
+function insertintoratings($user_id,$name,$email,$message,$rating,$approval,$branch_id,$singleent_id,$freeservice_id,$created_at)
+{
+	 //! Message Loggin
+        comment_message_log('Start of Function : '. __FUNCTION__);
 
-$response= "";
+        //! Data base connection
+        $rConnection = dbConnection();
 
+        /*!
+         * Check if the database Connection is failed
+         */
+        if(!$rConnection) {
+            //! Message Loggin
+            comment_message_log('End of Function : '. __FUNCTION__);
+            return E00010;
+        }
 
-include_once "../lib/sm-connection.php";
-include_once "../lib/sm-constant.php";
-include_once "../lib/RatingFunctions.php";
+        //! Query
+        $sQuery = "INSERT INTO `ratings` (`rating_id`,`user_id`,`name`, `email`, `message`, `rating`,`approval`,`branch_id`,`singleent_id`,`freeservice_id`, `timeStamp`) VALUES (NULL, '$user_id','$name','$email','$message','$rating','$approval','$branch_id','$singleent_id','$freeservice_id','$created_at');";
 
-//$owner_id= $_POST['owner_id'];
-$user_id = $_POST['owne	_id'];
-$category_id = 24;//$_POST['category_id'];
+        //! Executing the query
+        $res= mysqli_query($rConnection, $sQuery);
 
-$service_name = "IIT_JEE";//$_POST['service_name'];
-$service_details = "OF NO USE";//$_POST['service_details'];
-$service_website = "www.bothraclasses.com";//$_POST['service_website'];
-$date = time();
+        /*!
+         * Check If the Query executed properly
+         */
+        if($res ) {
+            $rating_id = mysqli_insert_id($rConnection);
 
-$created_at = date("Y-m-d H:i:s", $date); 
-if (!empty($category_id)) {
-	$data = insertintoownerservices($owner_id,$category_id,$service_name,$service_details,$service_website,$created_at);
-	$subcategory_ids = $_POST['subcategoryids'];
-	foreach( $subcategory_ids as $subcategory_id ){
-		insertintoservicesubcatrelation($data,$subcategory_id);	
-	}
+            //! Closing the connections
+            dbConnectionClose($rConnection);
+
+				return $rating_id;
+            //! Message Login
+            comment_message_log('Query Executed Successfully.::: owner_id = $owner_id ::: '.$sQuery);
+            comment_message_log('End of Function : '. __FUNCTION__);
+        } else {
+            comment_message_log('Query Execution failed. ::: '. $sQuery .' ::: '.@mysqli_error($rConnection));
+            comment_message_log('End of Function : '. __FUNCTION__);
+            //! Closing the connections
+            dbConnectionClose($rConnection);
+
+            return E00100;
+        }
+
 }
-else {
-	$response = "insert=failed";
+function getAllratings()
+{
+		//! Message Loggin
+        comment_message_log('Start of Function : '. __FUNCTION__);
+
+        //! Data base connection
+        $rConnection = dbConnection();
+
+        /*!
+         * Check if the database Connection is failed
+         */
+        if(!$rConnection) {
+            //! Message Loggin
+            comment_message_log('End of Function : '. __FUNCTION__);
+            return E00010;
+        }
+
+        //! Query
+        $sQuery = "SELECT * FROM `ratings` ";
+        //! Executing the query
+        $res= mysqli_query($rConnection, $sQuery);
+
+        /*!
+         * Check If the Query executed properly
+         */
+        if($res ) {
+           
+            $data = array();
+
+            //! retrieve the result from the result set
+            while($aRow = mysqli_fetch_assoc($res)) {
+                $data[] = $aRow;
+            }
+
+            //! Closing the connections
+            dbConnectionClose($rConnection);
+
+            //! Message Login
+            comment_message_log('Query Executed Successfully.::: owner_id = $owner_id ::: '.$sQuery);
+            comment_message_log('End of Function : '. __FUNCTION__);
+
+            return $data;
+        } else {
+            comment_message_log('Query Execution failed. ::: '. $sQuery .' ::: '.@mysqli_error($rConnection));
+            comment_message_log('End of Function : '. __FUNCTION__);
+            //! Closing the connections
+            dbConnectionClose($rConnection);
+
+            return E00100;
+        }
 }
 
+ 
 ?>

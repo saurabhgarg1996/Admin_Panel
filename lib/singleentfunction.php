@@ -1,0 +1,47 @@
+<?php
+	function insertintosingleent($owner_id, $category_id,$ent_name ,$ent_details,$ent_website,$isActive ,$listingType ,$ProvidesFreeSrvc ,$premiumStartDate ,$premiumEndDate,$amount_paid ,$created_at)
+	{
+	 //! Message Loggin
+        comment_message_log('Start of Function : '. __FUNCTION__);
+
+        //! Data base connection
+        $rConnection = dbConnection();
+
+        /*!
+         * Check if the database Connection is failed
+         */
+        if(!$rConnection) {
+            //! Message Loggin
+            comment_message_log('End of Function : '. __FUNCTION__);
+            return E00010;
+        }
+
+        //! Query
+        $sQuery = "INSERT INTO `servicebranch` (`ent_id`,`owner_id`,`category_id`,`ent_name`,`ent_details`,`ent_website`,`isActive` ,`listingType` ,`ProvidesFreeSrvc` ,`premiumStartDate` ,`premiumEndDate`,`amt_paid`,`timeStamp`) VALUES (NULL, '$owner_id', '$category_id','$ent_name ','$ent_details','$ent_website','$isActive' ,'$listingType' ,'$ProvidesFreeSrvc' ,'$premiumStartDate' ,'$premiumEndDate','$amount_paid ','$created_at');";
+
+        //! Executing the query
+        $res= mysqli_query($rConnection, $sQuery);
+
+        /*!
+         * Check If the Query executed properly
+         */
+        if($res ) {
+            $ent_id = mysqli_insert_id($rConnection);
+
+            //! Closing the connections
+            dbConnectionClose($rConnection);
+
+				return $ent_id;
+            //! Message Login
+            comment_message_log('Query Executed Successfully.::: owner_id = $owner_id ::: '.$sQuery);
+            comment_message_log('End of Function : '. __FUNCTION__);
+        } else {
+            comment_message_log('Query Execution failed. ::: '. $sQuery .' ::: '.@mysqli_error($rConnection));
+            comment_message_log('End of Function : '. __FUNCTION__);
+            //! Closing the connections
+            dbConnectionClose($rConnection);
+
+            return E00100;
+        }
+	}
+	?>

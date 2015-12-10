@@ -13299,4 +13299,238 @@
 09-12-2015 08:09:32 ::: Start of Function : aGetAllUsers
 09-12-2015 08:09:32 ::: Query Executed Successfully. ::: SELECT * FROM `user`  ;
 09-12-2015 08:09:32 ::: End of Function : aGetAllUsers
+10-12-2015 07:40:31 ::: Start of Function : aGetAllUsers
+10-12-2015 07:40:31 ::: Query Executed Successfully. ::: SELECT * FROM `user`  ;
+10-12-2015 07:40:31 ::: End of Function : aGetAllUsers
+10-12-2015 07:40:35 ::: Start of Function : aGetAllSubCats
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `sub_category`  ;
+10-12-2015 07:40:35 ::: End of Function : aGetAllSubCats
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:35 ::: Start of Function : aGetCatById
+10-12-2015 07:40:35 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:40:35 ::: End of Function : aGetCatById
+10-12-2015 07:40:37 ::: Start of Function : aGetAllCats
+10-12-2015 07:40:37 ::: Query Executed Successfully. ::: SELECT * FROM `category`
+10-12-2015 07:40:37 ::: End of Function : aGetAllCats
+10-12-2015 07:40:53 ::: Start of Function : aGetAllCats
+10-12-2015 07:40:53 ::: Query Executed Successfully. ::: SELECT * FROM `category`
+10-12-2015 07:40:53 ::: End of Function : aGetAllCats
+10-12-2015 07:41:15 ::: Start of Function : aGetAllCats
+10-12-2015 07:41:15 ::: Query Executed Successfully. ::: SELECT * FROM `category`
+10-12-2015 07:41:15 ::: End of Function : aGetAllCats
+10-12-2015 07:41:27 ::: Start of Function : aGetAllSubCats
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `sub_category`  ;
+10-12-2015 07:41:27 ::: End of Function : aGetAllSubCats
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'b73ce398c39f506af761d2277d853a92';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '1ff1de774005f8da13f42943881c655f';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = '02e74f10e0327ad868d138f2b4fdd6f0';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
+10-12-2015 07:41:27 ::: Start of Function : aGetCatById
+10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
+10-12-2015 07:41:27 ::: End of Function : aGetCatById
 

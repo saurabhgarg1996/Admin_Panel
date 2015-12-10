@@ -551,4 +551,41 @@
 09-12-2015 13:41:28 ::: Start of Function : insertintoservicesubcatrelation
 09-12-2015 13:41:28 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `servicesubcatrelation` (`service_id`,`sub_category_id`) VALUES ('605', '4');
 09-12-2015 13:41:28 ::: End of Function : insertintoservicesubcatrelation
+10-12-2015 07:40:30 ::: Start of Function : aGetUserbyPass
+10-12-2015 07:40:31 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+10-12-2015 07:40:31 ::: End of Function : aGetUserbyPass
+10-12-2015 07:40:53 ::: Start of Function : iInsertSubCats
+10-12-2015 07:40:53 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'27', 'ssdsds', '1', '0');
+10-12-2015 07:40:53 ::: End of Function : iInsertSubCats
+10-12-2015 07:40:53 ::: Start of Function : update
+10-12-2015 07:40:53 ::: End of Function : update
+10-12-2015 07:41:15 ::: Start of Function : iInsertSubCats
+10-12-2015 07:41:15 ::: Query Executed Successfully.::: sub_category_id = $subcategoryid ::: INSERT INTO `sub_category` (`sub_category_id`, `category_id`, `sub_category_name`, `show_in_app`, `version_num`) VALUES (NULL,'151', 'abcdefg', '1', '0');
+10-12-2015 07:41:15 ::: End of Function : iInsertSubCats
+10-12-2015 07:41:15 ::: Start of Function : update
+10-12-2015 07:41:15 ::: End of Function : update
+10-12-2015 09:21:54 ::: Start of Function : getAllratings
+10-12-2015 09:21:54 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `ratings` 
+10-12-2015 09:21:54 ::: End of Function : getAllratings
+10-12-2015 09:22:41 ::: Start of Function : getAllratings
+10-12-2015 09:22:41 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `ratings` 
+10-12-2015 09:22:41 ::: End of Function : getAllratings
+10-12-2015 09:22:41 ::: Start of Function : insertintoratings
+10-12-2015 09:22:41 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `ratings` (`rating_id`,`user_id`,`name`, `email`, `message`, `rating`,`approval`,`branch_id`,`singleent_id`,`freeservice_id`, `timeStamp`) VALUES (NULL, '24','IIT_JEE','OF NO USE','www.bothraclasses.com','5','1','','55','','2015-12-10 09:22:41');
+10-12-2015 09:22:41 ::: End of Function : insertintoratings
+10-12-2015 09:23:29 ::: Start of Function : getAllratings
+10-12-2015 09:23:29 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `ratings` 
+10-12-2015 09:23:29 ::: End of Function : getAllratings
+10-12-2015 09:23:52 ::: Start of Function : getAllratings
+10-12-2015 09:23:52 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `ratings` 
+10-12-2015 09:23:52 ::: End of Function : getAllratings
+10-12-2015 09:24:03 ::: Start of Function : getAllratings
+10-12-2015 09:24:03 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `ratings` 
+10-12-2015 09:24:03 ::: End of Function : getAllratings
+10-12-2015 09:24:03 ::: Start of Function : insertintoratings
+10-12-2015 09:24:03 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `ratings` (`rating_id`,`user_id`,`name`, `email`, `message`, `rating`,`approval`,`branch_id`,`singleent_id`,`freeservice_id`, `timeStamp`) VALUES (NULL, '25','IIT_JEE','OF NO USE','www.bothraclasses.com','5','1','','10','','2015-12-10 09:24:03');
+10-12-2015 09:24:03 ::: End of Function : insertintoratings
+10-12-2015 09:24:39 ::: Start of Function : getAllratings
+10-12-2015 09:24:39 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `ratings` 
+10-12-2015 09:24:39 ::: End of Function : getAllratings
 

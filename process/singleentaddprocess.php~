@@ -1,0 +1,34 @@
+<?php
+include_once "logincheck1.php";
+
+$response= "";
+
+
+include_once "../lib/sm-connection.php";
+include_once "../lib/sm-constant.php";
+include_once "../lib/serviceBranchFunction.php";
+
+//$owner_id= $_POST['owner_id'];
+$owner_id = 461;//$_POST['service_id'];
+$address =$_POST['address'];
+$area = $_POST['area'];
+$city = $_POST['city'];
+$pincode = $_POST['pincode'];
+$state = $_POST['state'];
+$country = $_POST['country'];
+	$address = $branch_address.$branch_area.$branch_city.$branch_state.$branch_country.$branch_pincode;
+	$prepAddr = str_replace(' ','+',$address);
+	$geocode = file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
+	$output = json_decode($geocode);
+
+$lat =  $output->results[0]->geometry->location->lat;
+$lng = $output->results[0]->geometry->location->lng;
+if (!empty($owner_id)) {
+	insertintosingleentadd($owner_id,$address,$area ,$city ,$pincode ,$state ,$country ,$lat ,$lng);
+	
+}
+else {
+	$response = "insert=failed";
+}
+
+?>
