@@ -1,0 +1,27 @@
+<?php
+include_once "logincheck1.php";
+
+$response= "";
+
+
+include_once "../lib/sm-connection.php";
+include_once "../lib/sm-constant.php";
+include_once "../lib/servicesusedfunction.php";
+
+//$owner_id= $_POST['owner_id'];
+$user_id = $_POST['user_id'];
+$service_id = $_POST['services_id'];
+$single_id = $_POST['singleent_id'];
+$freeservice_id = $_POST['freeserivce_id'];
+
+$date = time();
+$created_at = date("Y-m-d H:i:s", $date); 
+if (!empty($owner_id)) {
+	$data = insertintoservicesused($user_id, $service_id,$single_id,$freeserivce_id,$created_at);
+	
+}
+else {
+	$response = "insert=failed";
+}
+
+?>	

@@ -24,7 +24,7 @@ if (!empty($category_id)) {
 	foreach( $subcategory_ids as $subcategory_id ){
 		insertintoservicesubcatrelation($data,NULL,NULL,$subcategory_id);	
 	}
-	if(!empty($_FILES["service_icon"]["tmp_name"])){	
+	if(!empty($_FILES["owner_image"]["tmp_name"])){	
 		
 		if($data>0)
 		{
@@ -39,7 +39,7 @@ if (!empty($category_id)) {
 			if (file_exists($target_file)) {
 				$response = "insert=failed";
 			}
-			if ($_FILES["upload_subcategory_image"]["size"] > 5000000) {
+			if ($_FILES["owner_image"]["size"] > 5000000) {
 				$response = "insert=failed";
 			}
 			if ($imageFileType != "jpg") {

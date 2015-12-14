@@ -588,4 +588,502 @@
 10-12-2015 09:24:39 ::: Start of Function : getAllratings
 10-12-2015 09:24:39 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `ratings` 
 10-12-2015 09:24:39 ::: End of Function : getAllratings
+11-12-2015 07:55:45 ::: Start of Function : getAllfreeserviceid
+11-12-2015 07:55:46 ::: Query Execution failed. ::: SELECT * FROM `freeserivcecodedb`  ::: Table 'miamia_newapp.freeserivcecodedb' doesn't exist
+11-12-2015 07:55:46 ::: End of Function : getAllfreeserviceid
+11-12-2015 07:57:16 ::: Start of Function : getAllfreeserviceid
+11-12-2015 07:57:16 ::: Query Execution failed. ::: SELECT * FROM `freeserivcecodedb`  ::: Table 'miamia_newapp.freeserivcecodedb' doesn't exist
+11-12-2015 07:57:16 ::: End of Function : getAllfreeserviceid
+11-12-2015 07:57:25 ::: Start of Function : getAllfreeserviceid
+11-12-2015 07:57:25 ::: Query Execution failed. ::: SELECT * FROM `freeserivcecodedb`  ::: Table 'miamia_newapp.freeserivcecodedb' doesn't exist
+11-12-2015 07:57:25 ::: End of Function : getAllfreeserviceid
+11-12-2015 07:58:51 ::: Start of Function : getAllfreeserviceid
+11-12-2015 07:58:51 ::: Query Execution failed. ::: SELECT * FROM `freeserivcecodedb`  ::: Table 'miamia_newapp.freeserivcecodedb' doesn't exist
+11-12-2015 07:58:51 ::: End of Function : getAllfreeserviceid
+11-12-2015 07:58:51 ::: Start of Function : insertintofreeservices
+11-12-2015 07:58:51 ::: Query Execution failed. ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`) VALUES (NULL, '5','5','0','2015-12-11 07:58:51','0'); ::: Column 'id' cannot be null
+11-12-2015 07:58:51 ::: End of Function : insertintofreeservices
+11-12-2015 07:59:45 ::: Start of Function : getAllfreeserviceid
+11-12-2015 07:59:45 ::: Query Execution failed. ::: SELECT * FROM `freeserivcecodedb`  ::: Table 'miamia_newapp.freeserivcecodedb' doesn't exist
+11-12-2015 07:59:45 ::: End of Function : getAllfreeserviceid
+11-12-2015 07:59:45 ::: Start of Function : insertintofreeservices
+11-12-2015 07:59:45 ::: Query Execution failed. ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`) VALUES (NULL, '5','5','0','2015-12-11 07:59:45','0'); ::: Column 'id' cannot be null
+11-12-2015 07:59:45 ::: End of Function : insertintofreeservices
+11-12-2015 07:59:58 ::: Start of Function : getAllfreeserviceid
+11-12-2015 07:59:58 ::: Query Execution failed. ::: SELECT * FROM `freeserivcecodedb`  ::: Table 'miamia_newapp.freeserivcecodedb' doesn't exist
+11-12-2015 07:59:58 ::: End of Function : getAllfreeserviceid
+11-12-2015 07:59:58 ::: Start of Function : insertintofreeservices
+11-12-2015 07:59:58 ::: Query Execution failed. ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`) VALUES (NULL, '5','5','0','2015-12-11 07:59:58','0'); ::: Column 'id' cannot be null
+11-12-2015 07:59:58 ::: End of Function : insertintofreeservices
+11-12-2015 08:01:36 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:01:36 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:01:36 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:01:36 ::: Start of Function : insertintofreeservices
+11-12-2015 08:01:36 ::: Query Execution failed. ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`) VALUES (NULL, '5','5','0','2015-12-11 08:01:36',''); ::: Column 'id' cannot be null
+11-12-2015 08:01:36 ::: End of Function : insertintofreeservices
+11-12-2015 08:02:50 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:02:50 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:02:50 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:02:50 ::: Start of Function : insertintofreeservices
+11-12-2015 08:02:50 ::: Query Execution failed. ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`) VALUES (NULL, '5','5','0','2015-12-11 08:02:50',''); ::: Column 'id' cannot be null
+11-12-2015 08:02:50 ::: End of Function : insertintofreeservices
+11-12-2015 08:04:37 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:04:37 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:04:37 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:04:37 ::: Start of Function : insertintofreeservices
+11-12-2015 08:04:37 ::: Query Execution failed. ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`) VALUES (NULL, '5','5','0','2015-12-11 08:04:37',''); ::: Column 'id' cannot be null
+11-12-2015 08:04:37 ::: End of Function : insertintofreeservices
+11-12-2015 08:08:18 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:08:18 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:08:18 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:08:18 ::: Start of Function : insertintofreeservices
+11-12-2015 08:08:18 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`) VALUES (NULL, '5','5','0','2015-12-11 08:08:18','');
+11-12-2015 08:08:18 ::: End of Function : insertintofreeservices
+11-12-2015 08:09:07 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:09:07 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:09:07 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:09:21 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:09:21 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:09:21 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:09:21 ::: Start of Function : insertintofreeservices
+11-12-2015 08:09:21 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`) VALUES (NULL, '8','5','0','2015-12-11 08:09:21','');
+11-12-2015 08:09:21 ::: End of Function : insertintofreeservices
+11-12-2015 08:50:58 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:50:58 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:50:58 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:50:58 ::: Start of Function : insertintofreeservices
+11-12-2015 08:50:58 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`) VALUES (NULL, '9','5','0','2015-12-11 08:50:58','');
+11-12-2015 08:50:58 ::: End of Function : insertintofreeservices
+11-12-2015 08:52:12 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:52:12 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:52:12 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:52:12 ::: Start of Function : insertintofreeservices
+11-12-2015 08:52:12 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`,`expired`) VALUES (NULL, '10','5','0','2015-12-11 08:52:12','1449993132','0');
+11-12-2015 08:52:12 ::: End of Function : insertintofreeservices
+11-12-2015 08:53:22 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:53:22 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:53:22 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:53:54 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:53:54 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:53:54 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:54:22 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:54:22 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:54:22 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:54:22 ::: Start of Function : insertintofreeservices
+11-12-2015 08:54:22 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`,`expired`) VALUES (NULL, '10','5','0','2015-12-11 08:54:22','2015-12-13 08:54:22','0');
+11-12-2015 08:54:22 ::: End of Function : insertintofreeservices
+11-12-2015 08:54:38 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:54:38 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:54:38 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:55:23 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:55:23 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:55:23 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:55:32 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:55:32 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:55:32 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:55:32 ::: Start of Function : insertintofreeservices
+11-12-2015 08:55:32 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`,`expired`) VALUES (NULL, '11','5','0','2015-12-11 08:55:32','2015-12-11 08:57:32','0');
+11-12-2015 08:55:32 ::: End of Function : insertintofreeservices
+11-12-2015 08:55:49 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:55:49 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:55:49 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:56:09 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:56:09 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:56:09 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:56:09 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:56:09 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:56:09 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:56:10 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:56:10 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:56:10 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:56:10 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:56:10 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:56:10 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:56:10 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:56:10 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:56:10 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:57:06 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:57:06 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:57:06 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:57:19 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:57:19 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:57:19 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:58:03 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:58:03 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:58:03 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:58:03 ::: Start of Function : updatefreeservice
+11-12-2015 08:58:03 ::: Query Executed Successfully.::: owner_id = $owner_id ::: UPDATE `freeservicecodedb` SET `expired`='1' WHERE `id`='6' 
+11-12-2015 08:58:03 ::: End of Function : updatefreeservice
+11-12-2015 08:58:20 ::: Start of Function : getAllfreeserviceid
+11-12-2015 08:58:20 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+11-12-2015 08:58:20 ::: End of Function : getAllfreeserviceid
+11-12-2015 08:58:20 ::: Start of Function : insertintofreeservices
+11-12-2015 08:58:20 ::: Query Executed Successfully.::: owner_id = $owner_id ::: INSERT INTO `freeservicecodedb` (`id`,`user_id`,`freeservice_id`, `consumed`, `timeStamp`,`expiry`,`expired`) VALUES (NULL, '11','5','0','2015-12-11 08:58:20','2015-12-11 09:00:20','0');
+11-12-2015 08:58:20 ::: End of Function : insertintofreeservices
+12-12-2015 14:39:20 ::: Start of Function : getAllfreeservices
+12-12-2015 14:39:20 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:39:20 ::: End of Function : getAllfreeservices
+12-12-2015 14:39:20 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:39:20 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:39:20 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:39:20 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:39:20 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:39:20 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:39:20 ::: Start of Function : getAllinterests
+12-12-2015 14:39:20 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id= c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:39:20 ::: End of Function : getAllinterests
+12-12-2015 14:39:20 ::: Start of Function : getAllfriendservices
+12-12-2015 14:39:20 ::: Query Execution failed. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id= and b.full_name=a.friend_name and c.user_id=b.user_id ::: 
+12-12-2015 14:39:20 ::: End of Function : getAllfriendservices
+12-12-2015 14:39:41 ::: Start of Function : getAllfreeservices
+12-12-2015 14:39:41 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:39:41 ::: End of Function : getAllfreeservices
+12-12-2015 14:39:41 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:39:41 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:39:41 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:39:41 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:39:41 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:39:41 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:39:41 ::: Start of Function : getAllinterests
+12-12-2015 14:39:41 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id= c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:39:41 ::: End of Function : getAllinterests
+12-12-2015 14:39:41 ::: Start of Function : getAllfriendservices
+12-12-2015 14:39:41 ::: Query Execution failed. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id= and b.full_name=a.friend_name and c.user_id=b.user_id ::: 
+12-12-2015 14:39:41 ::: End of Function : getAllfriendservices
+12-12-2015 14:40:20 ::: Start of Function : getAllfreeserviceid
+12-12-2015 14:40:20 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+12-12-2015 14:40:20 ::: End of Function : getAllfreeserviceid
+12-12-2015 14:40:39 ::: Start of Function : getAllfreeservices
+12-12-2015 14:40:39 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:40:39 ::: End of Function : getAllfreeservices
+12-12-2015 14:40:39 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:40:39 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:40:39 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:40:39 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:40:39 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:40:39 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:40:39 ::: Start of Function : getAllinterests
+12-12-2015 14:40:39 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id= c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:40:39 ::: End of Function : getAllinterests
+12-12-2015 14:40:39 ::: Start of Function : getAllfriendservices
+12-12-2015 14:40:39 ::: Query Execution failed. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id= and b.full_name=a.friend_name and c.user_id=b.user_id ::: 
+12-12-2015 14:40:39 ::: End of Function : getAllfriendservices
+12-12-2015 14:41:25 ::: Start of Function : getAllfreeservices
+12-12-2015 14:41:25 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:41:25 ::: End of Function : getAllfreeservices
+12-12-2015 14:41:25 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:41:25 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:41:25 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:41:25 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:41:25 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:41:25 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:41:25 ::: Start of Function : getAllinterests
+12-12-2015 14:41:25 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id= c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:41:25 ::: End of Function : getAllinterests
+12-12-2015 14:41:25 ::: Start of Function : getAllfriendservices
+12-12-2015 14:41:25 ::: Query Execution failed. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id= and b.full_name=a.friend_name and c.user_id=b.user_id ::: 
+12-12-2015 14:41:25 ::: End of Function : getAllfriendservices
+12-12-2015 14:41:53 ::: Start of Function : getAllfreeservices
+12-12-2015 14:41:53 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:41:53 ::: End of Function : getAllfreeservices
+12-12-2015 14:41:53 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:41:53 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:41:53 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:41:53 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:41:53 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:41:53 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:41:53 ::: Start of Function : getAllinterests
+12-12-2015 14:41:53 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id= c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:41:53 ::: End of Function : getAllinterests
+12-12-2015 14:41:53 ::: Start of Function : getAllfriendservices
+12-12-2015 14:41:53 ::: Query Execution failed. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id= and b.full_name=a.friend_name and c.user_id=b.user_id ::: 
+12-12-2015 14:41:53 ::: End of Function : getAllfriendservices
+12-12-2015 14:43:25 ::: Start of Function : getAllfreeserviceid
+12-12-2015 14:43:25 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `freeservicecodedb` 
+12-12-2015 14:43:25 ::: End of Function : getAllfreeserviceid
+12-12-2015 14:43:25 ::: Start of Function : updatefreeservice
+12-12-2015 14:43:25 ::: Query Executed Successfully.::: owner_id = $owner_id ::: UPDATE `freeservicecodedb` SET `expired`='1' WHERE `id`='6' 
+12-12-2015 14:43:25 ::: End of Function : updatefreeservice
+12-12-2015 14:43:25 ::: Start of Function : updatefreeservice
+12-12-2015 14:43:25 ::: Query Executed Successfully.::: owner_id = $owner_id ::: UPDATE `freeservicecodedb` SET `expired`='1' WHERE `id`='7' 
+12-12-2015 14:43:25 ::: End of Function : updatefreeservice
+12-12-2015 14:49:39 ::: Start of Function : getAllfreeservices
+12-12-2015 14:49:39 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:49:39 ::: End of Function : getAllfreeservices
+12-12-2015 14:49:39 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:49:39 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:49:39 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:49:39 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:49:39 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:49:39 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:49:39 ::: Start of Function : getAllinterests
+12-12-2015 14:49:39 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id= c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:49:39 ::: End of Function : getAllinterests
+12-12-2015 14:49:39 ::: Start of Function : getAllfriendservices
+12-12-2015 14:49:39 ::: Query Execution failed. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id= and b.full_name=a.friend_name and c.user_id=b.user_id ::: 
+12-12-2015 14:49:39 ::: End of Function : getAllfriendservices
+12-12-2015 14:50:30 ::: Start of Function : getAllfreeservices
+12-12-2015 14:50:30 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:50:30 ::: End of Function : getAllfreeservices
+12-12-2015 14:50:30 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:50:30 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:50:30 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:50:30 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:50:30 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:50:30 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:50:30 ::: Start of Function : getAllinterests
+12-12-2015 14:50:30 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id= c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:50:30 ::: End of Function : getAllinterests
+12-12-2015 14:50:30 ::: Start of Function : getAllfriendservices
+12-12-2015 14:50:30 ::: Query Execution failed. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id= and b.full_name=a.friend_name and c.user_id=b.user_id ::: 
+12-12-2015 14:50:30 ::: End of Function : getAllfriendservices
+12-12-2015 14:52:38 ::: Start of Function : aGetUserbyPass
+12-12-2015 14:52:38 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+12-12-2015 14:52:38 ::: End of Function : aGetUserbyPass
+12-12-2015 14:52:44 ::: Start of Function : getAllfreeservices
+12-12-2015 14:52:44 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:52:44 ::: End of Function : getAllfreeservices
+12-12-2015 14:52:44 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:52:44 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:52:44 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:52:44 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:52:44 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:52:44 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:52:44 ::: Start of Function : getAllinterests
+12-12-2015 14:52:44 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id= c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:52:44 ::: End of Function : getAllinterests
+12-12-2015 14:52:44 ::: Start of Function : getAllfriendservices
+12-12-2015 14:52:44 ::: Query Execution failed. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id= and b.full_name=a.friend_name and c.user_id=b.user_id ::: 
+12-12-2015 14:52:44 ::: End of Function : getAllfriendservices
+12-12-2015 14:53:14 ::: Start of Function : getAllfreeservices
+12-12-2015 14:53:14 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:53:14 ::: End of Function : getAllfreeservices
+12-12-2015 14:53:14 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:53:14 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:53:14 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:53:14 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:53:14 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:53:14 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:53:14 ::: Start of Function : getAllinterests
+12-12-2015 14:53:14 ::: Query Execution failed. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id=50 c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id  ::: 
+12-12-2015 14:53:14 ::: End of Function : getAllinterests
+12-12-2015 14:53:14 ::: Start of Function : getAllfriendservices
+12-12-2015 14:53:14 ::: Query Executed Successfully. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id=50 and b.full_name=a.friend_name and c.user_id=b.user_id
+12-12-2015 14:53:14 ::: End of Function : getAllfriendservices
+12-12-2015 14:53:27 ::: Start of Function : getAllfreeservices
+12-12-2015 14:53:27 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:53:27 ::: End of Function : getAllfreeservices
+12-12-2015 14:53:27 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:53:27 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:53:27 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:53:27 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:53:27 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:53:27 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:53:27 ::: Start of Function : getAllinterests
+12-12-2015 14:53:27 ::: Query Execution failed. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id=50 c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id  ::: 
+12-12-2015 14:53:27 ::: End of Function : getAllinterests
+12-12-2015 14:53:27 ::: Start of Function : getAllfriendservices
+12-12-2015 14:53:27 ::: Query Executed Successfully. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id=50 and b.full_name=a.friend_name and c.user_id=b.user_id
+12-12-2015 14:53:27 ::: End of Function : getAllfriendservices
+12-12-2015 14:53:33 ::: Start of Function : getAllfreeservices
+12-12-2015 14:53:33 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:53:33 ::: End of Function : getAllfreeservices
+12-12-2015 14:53:33 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:53:33 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:53:33 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:53:33 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:53:33 ::: Query Execution failed. ::: SELECT * FROM `singleent` a, `singleantadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id ::: 
+12-12-2015 14:53:33 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:53:33 ::: Start of Function : getAllinterests
+12-12-2015 14:53:33 ::: Query Execution failed. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id=50 c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id  ::: 
+12-12-2015 14:53:33 ::: End of Function : getAllinterests
+12-12-2015 14:53:33 ::: Start of Function : getAllfriendservices
+12-12-2015 14:53:33 ::: Query Executed Successfully. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id=50 and b.full_name=a.friend_name and c.user_id=b.user_id
+12-12-2015 14:53:33 ::: End of Function : getAllfriendservices
+12-12-2015 14:56:25 ::: Start of Function : getAllfreeservices
+12-12-2015 14:56:25 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:56:25 ::: End of Function : getAllfreeservices
+12-12-2015 14:56:25 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:56:25 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:56:25 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:56:25 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:56:25 ::: Query Executed Successfully. ::: SELECT * FROM `singleent` a, `singleentadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id
+12-12-2015 14:56:25 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:56:25 ::: Start of Function : getAllinterests
+12-12-2015 14:56:25 ::: Query Execution failed. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id=50 c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id  ::: 
+12-12-2015 14:56:25 ::: End of Function : getAllinterests
+12-12-2015 14:56:25 ::: Start of Function : getAllfriendservices
+12-12-2015 14:56:25 ::: Query Executed Successfully. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id=50 and b.full_name=a.friend_name and c.user_id=b.user_id
+12-12-2015 14:56:25 ::: End of Function : getAllfriendservices
+12-12-2015 14:58:48 ::: Start of Function : getAllfreeservices
+12-12-2015 14:58:48 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:58:48 ::: End of Function : getAllfreeservices
+12-12-2015 14:58:48 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:58:48 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:58:48 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:58:48 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:58:48 ::: Query Executed Successfully. ::: SELECT * FROM `singleent` a, `singleentadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id
+12-12-2015 14:58:48 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:58:48 ::: Start of Function : getAllinterests
+12-12-2015 14:58:48 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id=50 and c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:58:48 ::: End of Function : getAllinterests
+12-12-2015 14:58:48 ::: Start of Function : getAllfriendservices
+12-12-2015 14:58:48 ::: Query Executed Successfully. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id=50 and b.full_name=a.friend_name and c.user_id=b.user_id
+12-12-2015 14:58:48 ::: End of Function : getAllfriendservices
+12-12-2015 14:59:26 ::: Start of Function : getAllfreeservices
+12-12-2015 14:59:26 ::: Query Executed Successfully. ::: SELECT * FROM `freeservicedb`
+12-12-2015 14:59:26 ::: End of Function : getAllfreeservices
+12-12-2015 14:59:26 ::: Start of Function : getAllpremiumServices1
+12-12-2015 14:59:26 ::: Query Executed Successfully. ::: SELECT * FROM `servicebranch` a,`ratings` b WHERE a.branch_id=b.branch_id
+12-12-2015 14:59:26 ::: End of Function : getAllpremiumServices1
+12-12-2015 14:59:26 ::: Start of Function : getAllpremiumServices2
+12-12-2015 14:59:26 ::: Query Executed Successfully. ::: SELECT * FROM `singleent` a, `singleentadd` b, `ratings` c WHERE a.owner_id=b.owner_id and a.ent_id=c.singleent_id
+12-12-2015 14:59:26 ::: End of Function : getAllpremiumServices2
+12-12-2015 14:59:26 ::: Start of Function : getAllinterests
+12-12-2015 14:59:26 ::: Query Executed Successfully. ::: SELECT * FROM `userinterest` c,`interests` a,`interest_subcategory` b,`servicesubcatrelation` d WHERE c.user_id=50 and c.int_id=a.id and a.id=b.int_id and b.sub_id=d.sub_category_id 
+12-12-2015 14:59:26 ::: End of Function : getAllinterests
+12-12-2015 14:59:26 ::: Start of Function : getAllfriendservices
+12-12-2015 14:59:26 ::: Query Executed Successfully. ::: SELECT * FROM `friend_list` a,`user` b,`services_used` c WHERE a.user_id=50 and b.full_name=a.friend_name and c.user_id=b.user_id
+12-12-2015 14:59:26 ::: End of Function : getAllfriendservices
+14-12-2015 06:58:44 ::: Start of Function : aGetUserbyPass
+14-12-2015 06:58:44 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = '!justdoit';
+14-12-2015 06:58:44 ::: End of Function : aGetUserbyPass
+14-12-2015 06:58:54 ::: Start of Function : aGetUserbyPass
+14-12-2015 06:58:54 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+14-12-2015 06:58:54 ::: End of Function : aGetUserbyPass
+14-12-2015 07:23:52 ::: Start of Function : getuserbyid
+14-12-2015 07:23:52 ::: Query Execution failed. ::: SELECT * FROM `user` WHERE user_id= ; ::: 
+14-12-2015 07:23:52 ::: End of Function : getuserbyid
+14-12-2015 07:32:59 ::: Start of Function : getuserbyid
+14-12-2015 07:32:59 ::: Query Executed Successfully. ::: SELECT * FROM `user` WHERE user_id=5 ;
+14-12-2015 07:32:59 ::: End of Function : getuserbyid
+14-12-2015 10:13:00 ::: Start of Function : insertintofav
+14-12-2015 10:13:00 ::: Query Execution failed. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'',''); ::: 
+14-12-2015 10:13:00 ::: End of Function : insertintofav
+14-12-2015 10:17:16 ::: Start of Function : insertintofav
+14-12-2015 10:17:16 ::: Query Execution failed. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'',''); ::: 
+14-12-2015 10:17:16 ::: End of Function : insertintofav
+14-12-2015 10:18:04 ::: Start of Function : insertintofav
+14-12-2015 10:18:04 ::: Query Execution failed. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55'); ::: 
+14-12-2015 10:18:04 ::: End of Function : insertintofav
+14-12-2015 10:20:40 ::: Start of Function : insertintofav
+14-12-2015 10:20:40 ::: Query Execution failed. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55'); ::: 
+14-12-2015 10:20:40 ::: End of Function : insertintofav
+14-12-2015 10:20:41 ::: Start of Function : insertintofav
+14-12-2015 10:20:41 ::: Query Execution failed. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55'); ::: 
+14-12-2015 10:20:41 ::: End of Function : insertintofav
+14-12-2015 10:20:41 ::: Start of Function : insertintofav
+14-12-2015 10:20:41 ::: Query Execution failed. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55'); ::: 
+14-12-2015 10:20:41 ::: End of Function : insertintofav
+14-12-2015 10:20:42 ::: Start of Function : insertintofav
+14-12-2015 10:20:42 ::: Query Execution failed. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55'); ::: 
+14-12-2015 10:20:42 ::: End of Function : insertintofav
+14-12-2015 10:20:42 ::: Start of Function : insertintofav
+14-12-2015 10:20:42 ::: Query Execution failed. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55'); ::: 
+14-12-2015 10:20:42 ::: End of Function : insertintofav
+14-12-2015 10:21:46 ::: Start of Function : insertintofav
+14-12-2015 10:21:46 ::: Query Execution failed. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55'); ::: 
+14-12-2015 10:21:46 ::: End of Function : insertintofav
+14-12-2015 10:22:25 ::: Start of Function : insertintofav
+14-12-2015 10:22:25 ::: Query Executed Successfully. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55');
+14-12-2015 10:22:25 ::: End of Function : insertintofav
+14-12-2015 10:23:26 ::: Start of Function : insertintofav
+14-12-2015 10:23:26 ::: Query Execution failed. ::: DELETE * FROM `fav` WHERE user_id=5 and service_id=55 ::: 
+14-12-2015 10:23:26 ::: End of Function : insertintofav
+14-12-2015 10:23:34 ::: Start of Function : insertintofav
+14-12-2015 10:23:34 ::: Query Execution failed. ::: DELETE * FROM `fav` WHERE user_id=5 and service_id=55 ::: 
+14-12-2015 10:23:34 ::: End of Function : insertintofav
+14-12-2015 10:24:59 ::: Start of Function : insertintofav
+14-12-2015 10:25:00 ::: Query Execution failed. ::: DELETE * FROM `fav` WHERE user_id=5 and service_id=55 ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM `fav` WHERE user_id=5 and service_id=55' at line 1
+14-12-2015 10:25:00 ::: End of Function : insertintofav
+14-12-2015 10:25:15 ::: Start of Function : insertintofav
+14-12-2015 10:25:15 ::: Query Execution failed. ::: DELETE * FROM `fav` WHERE user_id=5 and service_id=55 ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM `fav` WHERE user_id=5 and service_id=55' at line 1
+14-12-2015 10:25:15 ::: End of Function : insertintofav
+14-12-2015 10:25:15 ::: Start of Function : insertintofav
+14-12-2015 10:25:15 ::: Query Execution failed. ::: DELETE * FROM `fav` WHERE user_id=5 and service_id=55 ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM `fav` WHERE user_id=5 and service_id=55' at line 1
+14-12-2015 10:25:15 ::: End of Function : insertintofav
+14-12-2015 10:26:02 ::: Start of Function : insertintofav
+14-12-2015 10:26:02 ::: Query Executed Successfully. ::: DELETE FROM `fav` WHERE user_id=5 and service_id=55
+14-12-2015 10:26:02 ::: End of Function : insertintofav
+14-12-2015 10:48:10 ::: Start of Function : insertintofav
+14-12-2015 10:48:10 ::: Query Executed Successfully. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55');
+14-12-2015 10:48:10 ::: End of Function : insertintofav
+14-12-2015 10:48:31 ::: Start of Function : insertintofav
+14-12-2015 10:48:32 ::: Query Executed Successfully. ::: DELETE FROM `fav` WHERE user_id=5 and service_id=55
+14-12-2015 10:48:32 ::: End of Function : insertintofav
+14-12-2015 10:48:33 ::: Start of Function : insertintofav
+14-12-2015 10:48:33 ::: Query Executed Successfully. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55');
+14-12-2015 10:48:33 ::: End of Function : insertintofav
+14-12-2015 10:49:18 ::: Start of Function : insertintofav
+14-12-2015 10:49:18 ::: Query Executed Successfully. ::: DELETE FROM `fav` WHERE user_id=5 and service_id=55
+14-12-2015 10:49:18 ::: End of Function : insertintofav
+14-12-2015 10:49:19 ::: Start of Function : insertintofav
+14-12-2015 10:49:19 ::: Query Executed Successfully. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55');
+14-12-2015 10:49:19 ::: End of Function : insertintofav
+14-12-2015 10:49:28 ::: Start of Function : insertintofav
+14-12-2015 10:49:28 ::: Query Executed Successfully. ::: DELETE FROM `fav` WHERE user_id=5 and service_id=55
+14-12-2015 10:49:28 ::: End of Function : insertintofav
+14-12-2015 10:49:35 ::: Start of Function : insertintofav
+14-12-2015 10:49:35 ::: Query Executed Successfully. ::: INSERT INTO `fav` (`id`,`user_id`,`service_id`) VALUES (NULL,'5','55');
+14-12-2015 10:49:35 ::: End of Function : insertintofav
+14-12-2015 10:54:53 ::: Start of Function : getAllratings
+14-12-2015 10:54:53 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `ratings` 
+14-12-2015 10:54:53 ::: End of Function : getAllratings
+14-12-2015 11:09:56 ::: Start of Function : insertintofav
+14-12-2015 11:09:56 ::: Query Executed Successfully. ::: DELETE FROM `fav` WHERE user_id=5 and service_id=55
+14-12-2015 11:09:56 ::: End of Function : insertintofav
+14-12-2015 11:27:18 ::: Start of Function : getAllratings
+14-12-2015 11:27:18 ::: Query Executed Successfully.::: owner_id = $owner_id ::: SELECT * FROM `ratings` 
+14-12-2015 11:27:18 ::: End of Function : getAllratings
+14-12-2015 12:35:14 ::: Start of Function : getAlldetails
+14-12-2015 12:35:14 ::: Query Execution failed. ::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.subcategory_id= and a.service_id=b.service_id and b.service_id=c.service_id  ::: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and a.service_id=b.service_id and b.service_id=c.service_id' at line 1
+14-12-2015 12:35:14 ::: End of Function : getAlldetails
+14-12-2015 12:37:42 ::: Start of Function : getAlldetails
+14-12-2015 12:37:42 ::: Query Execution failed. ::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.subcategory_id=297 and a.service_id=b.service_id and b.service_id=c.service_id  ::: Unknown column 'a.subcategory_id' in 'where clause'
+14-12-2015 12:37:42 ::: End of Function : getAlldetails
+14-12-2015 12:37:47 ::: Start of Function : getAlldetails
+14-12-2015 12:37:47 ::: Query Execution failed. ::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.subcategory_id=297 and a.service_id=b.service_id and b.service_id=c.service_id  ::: Unknown column 'a.subcategory_id' in 'where clause'
+14-12-2015 12:37:47 ::: End of Function : getAlldetails
+14-12-2015 12:40:03 ::: Start of Function : getAlldetails
+14-12-2015 12:40:03 ::: Query Execution failed. ::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.subcategory_id=297 and a.service_id=b.service_id and b.service_id=c.service_id  ::: Unknown column 'a.subcategory_id' in 'where clause'
+14-12-2015 12:40:03 ::: End of Function : getAlldetails
+14-12-2015 12:40:52 ::: Start of Function : getAlldetails
+14-12-2015 12:40:52 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=297 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 12:40:52 ::: End of Function : getAlldetails
+14-12-2015 13:00:46 ::: Start of Function : getAlldetails
+14-12-2015 13:00:46 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=297 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 13:00:46 ::: End of Function : getAlldetails
+14-12-2015 13:00:47 ::: Start of Function : getAlldetails
+14-12-2015 13:00:47 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=297 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 13:00:47 ::: End of Function : getAlldetails
+14-12-2015 13:21:32 ::: Start of Function : aGetUserbyPass
+14-12-2015 13:21:32 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988';
+14-12-2015 13:21:32 ::: End of Function : aGetUserbyPass
+14-12-2015 13:21:44 ::: Start of Function : aGetUserbyPass
+14-12-2015 13:21:44 ::: Query Executed Successfully. ::: SELECT * FROM `admin` where `email` = 'info@miamia.co.in' AND `password` = 'justdoit1988!';
+14-12-2015 13:21:44 ::: End of Function : aGetUserbyPass
+14-12-2015 13:26:35 ::: Start of Function : getAlldetails
+14-12-2015 13:26:35 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=192 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 13:26:35 ::: End of Function : getAlldetails
+14-12-2015 13:26:46 ::: Start of Function : getAlldetails
+14-12-2015 13:26:46 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=192 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 13:26:46 ::: End of Function : getAlldetails
+14-12-2015 13:27:06 ::: Start of Function : getAlldetails
+14-12-2015 13:27:06 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=192 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 13:27:06 ::: End of Function : getAlldetails
+14-12-2015 13:27:08 ::: Start of Function : getAlldetails
+14-12-2015 13:27:08 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=192 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 13:27:08 ::: End of Function : getAlldetails
+14-12-2015 14:42:44 ::: Start of Function : getAlldetails
+14-12-2015 14:42:44 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=192 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 14:42:44 ::: End of Function : getAlldetails
+14-12-2015 14:43:20 ::: Start of Function : getAlldetails
+14-12-2015 14:43:20 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=192 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 14:43:20 ::: End of Function : getAlldetails
+14-12-2015 14:45:26 ::: Start of Function : getAlldetails
+14-12-2015 14:45:26 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=192 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 14:45:26 ::: End of Function : getAlldetails
+14-12-2015 14:49:43 ::: Start of Function : getAlldetails
+14-12-2015 14:49:43 ::: Query Executed Successfully.::: SELECT * FROM `servicesubcatrelation` a,`ownerservice` b,`servicebranch` c WHERE a.sub_category_id=192 and a.service_id=b.service_id and b.service_id=c.service_id 
+14-12-2015 14:49:43 ::: End of Function : getAlldetails
 

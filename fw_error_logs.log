@@ -13533,4 +13533,16 @@
 10-12-2015 07:41:27 ::: Start of Function : aGetCatById
 10-12-2015 07:41:27 ::: Query Executed Successfully. ::: SELECT * FROM `category` WHERE md5(category_id) = 'a8f15eda80c50adb0e71943adc8015cf';
 10-12-2015 07:41:27 ::: End of Function : aGetCatById
+12-12-2015 14:52:38 ::: Start of Function : aGetAllUsers
+12-12-2015 14:52:38 ::: Query Executed Successfully. ::: SELECT * FROM `user`  ;
+12-12-2015 14:52:38 ::: End of Function : aGetAllUsers
+14-12-2015 06:58:54 ::: Start of Function : aGetAllUsers
+14-12-2015 06:58:54 ::: Query Executed Successfully. ::: SELECT * FROM `user`  ;
+14-12-2015 06:58:54 ::: End of Function : aGetAllUsers
+14-12-2015 13:21:44 ::: Start of Function : aGetAllUsers
+14-12-2015 13:21:44 ::: Query Executed Successfully. ::: SELECT * FROM `user`  ;
+14-12-2015 13:21:44 ::: End of Function : aGetAllUsers
+14-12-2015 13:21:49 ::: Start of Function : aGetAllCats
+14-12-2015 13:21:49 ::: Query Executed Successfully. ::: SELECT * FROM `category`
+14-12-2015 13:21:49 ::: End of Function : aGetAllCats
 

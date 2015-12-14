@@ -11,16 +11,17 @@ include_once "../lib/workinghrsfunction.php";
 
 //$rating_id = 461;//$_POST['rating_id'];
 
-$day = "IIT_JEE";//$_POST['day'];
-$start_hour = "OF NO USE";//$_POST['start_hour'];
-$end_hour = "www.bothraclasses.com";//$_POST['end_hour'];
-$closed = 5;//$_POST['rating'];
+$days = $_POST['day'];
+$start_hour = $_POST['start_hour'];
+$end_hour = $_POST['end_hour'];
+$closed = $_POST['closed'];
 
-$branch_id = 25;//$_POST['branch_id'];
+$branch_id = $_POST['branch_id'];
 $singleent_id = NULL;//$_POST['singleent_id'];
 $freeservice_id = NULL;//$_POST['freeservice_id'];
 $data = getAllratings();
 $check = 0;
+foreach($days as $day){
 if($freeservice_id!=NULL){
 	foreach ($data as $point)
 	{
@@ -54,7 +55,9 @@ if (!empty($day) && $check==0 ) {
 	
 else {
 	$response = "insert=failed";
-	echo "Review already given";
+	echo "Working hours added";
 }
+}
+
 
 ?>

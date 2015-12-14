@@ -10,20 +10,20 @@ include_once "../lib/RatingFuntions.php";
 
 
 //$rating_id = 461;//$_POST['rating_id'];
-$user_id = 2;//$_POST['user_id'];
+$user_id = $_POST['user_id'];
 
-$name = "IIT_JEE";//$_POST['name'];
-$email = "OF NO USE";//$_POST['email'];
-$message = "www.bothraclasses.com";//$_POST['message'];
-$rating = 5;//$_POST['rating'];
+$name = NULL;//$_POST['name'];
+$email = NULL;//$_POST['email'];
+$message = $_POST['message'];
+$rating = $_POST['rating'];
 $approval= 1;//$_POST['approval'];
-$branch_id = 25;//$_POST['branch_id'];
-$singleent_id = NULL;//$_POST['singleent_id'];
-$freeservice_id = NULL;//$_POST['freeservice_id'];
+$branch_id = $_POST['branch_id'];
+$singleent_id = $_POST['singleent_id'];
+$freeservice_id = $_POST['freeservice_id'];
 $date = time();
 
 $created_at = date("Y-m-d H:i:s", $date); 
-$data = getAllworkinghrs();
+$data = getAllratings();
 $check = 0;
 if($freeservice_id!=NULL){
 	foreach ($data as $point)
@@ -54,6 +54,23 @@ else if ($singleent_id!=NULL){
 }
 if (!empty($user_id) && $check==0 ) {
 	$data = insertintoratings($user_id,$name,$email,$message,$rating,$approval,$branch_id,$singleent_id,$freeservice_id,$created_at);
+	if($branch_id!=0)
+		$avgdata = getAllratingsbyid($branch_id,0,0);
+	else if($singleent_id!=0)
+		$avgdata = getAllratingsbyid(0,$singleent_id,0);
+ else if($freeservice_id!=0)
+		$avgdata = getAllratingsbyid(0,0,$freeservice_id);
+			$rating = 0;$count=0;
+		
+		foreach($avgdata as $point)
+		{
+			$count=$count+1;
+			$rating=$rating + $point['rating'];
+		}
+		$redata = $rating/$count;
+		echo "$redata";
+		
+	
 	}
 	
 else {

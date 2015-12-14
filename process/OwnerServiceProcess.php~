@@ -22,7 +22,7 @@ if (!empty($category_id)) {
 	$data = insertintoownerservices($owner_id,$category_id,$service_name,$service_details,$service_website,$created_at);
 	$subcategory_ids = $_POST['subcategoryids'];
 	foreach( $subcategory_ids as $subcategory_id ){
-		insertintoservicesubcatrelation($data,$subcategory_id);	
+		insertintoservicesubcatrelation($data,NULL,NULL,$subcategory_id);	
 	}
 	if(!empty($_FILES["service_icon"]["tmp_name"])){	
 		
